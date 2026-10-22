@@ -1,0 +1,138 @@
+{
+ "what": "One person's blind picks, one per prompt, on lettered contact sheets of seed 101 (letters shuffled independently per prompt; the key was opened after the vote). Prompts p1 to p8 were voted at the first sitting, p9 afterwards on its own sheet. Those sheets held five models. A second round followed on new sheets with all six models (FLUX 3 Image Klein added, letters shuffled again).",
+ "voter": "one person, the host of the channel (not an AI model)",
+ "rule": "one vote per prompt; a two-letter answer counts half each",
+ "raw_answer_p1_to_p8": "p1 B, p2 C or D, p3 A or D?, p4 E, p5 D or E?, p6 A, p7 D, p8 D (transcribed from the original Spanish answer, 'o' = 'or')",
+ "voted_at_p1_to_p8": "2026-10-20T22:23:37Z",
+ "voted_at_p9": "2026-10-20T22:55:35Z",
+ "model_names": {
+  "krea-dense": "Krea 2 Turbo",
+  "moss-prompt": "MOSS-Image",
+  "qwen21": "Qwen-Image-2.1",
+  "fibo": "FIBO 2.0-dev",
+  "qwena": "Qwen-Image-2512",
+  "klein": "FLUX 3 Image Klein"
+ },
+ "picks": [
+  {
+   "prompt": "p1-presenter",
+   "letters_picked": [
+    "B"
+   ],
+   "models": [
+    "qwen21"
+   ],
+   "weight_each": 1.0
+  },
+  {
+   "prompt": "p2-hands-can",
+   "letters_picked": [
+    "C",
+    "D"
+   ],
+   "models": [
+    "fibo",
+    "qwena"
+   ],
+   "weight_each": 0.5
+  },
+  {
+   "prompt": "p3-elderly-man",
+   "letters_picked": [
+    "A",
+    "D"
+   ],
+   "models": [
+    "krea-dense",
+    "qwen21"
+   ],
+   "weight_each": 0.5
+  },
+  {
+   "prompt": "p4-cafe-four",
+   "letters_picked": [
+    "E"
+   ],
+   "models": [
+    "qwen21"
+   ],
+   "weight_each": 1.0
+  },
+  {
+   "prompt": "p5-hiker-ridge",
+   "letters_picked": [
+    "D",
+    "E"
+   ],
+   "models": [
+    "krea-dense",
+    "qwen21"
+   ],
+   "weight_each": 0.5
+  },
+  {
+   "prompt": "p6-night-rain",
+   "letters_picked": [
+    "A"
+   ],
+   "models": [
+    "qwen21"
+   ],
+   "weight_each": 1.0
+  },
+  {
+   "prompt": "p7-adherence",
+   "letters_picked": [
+    "D"
+   ],
+   "models": [
+    "qwen21"
+   ],
+   "weight_each": 1.0
+  },
+  {
+   "prompt": "p8-anime-bookshop",
+   "letters_picked": [
+    "D"
+   ],
+   "models": [
+    "krea-dense"
+   ],
+   "weight_each": 1.0
+  },
+  {
+   "prompt": "p9-lifestyle-feet",
+   "letters_picked": [
+    "D",
+    "E"
+   ],
+   "models": [
+    "qwen21",
+    "krea-dense"
+   ],
+   "weight_each": 0.5,
+   "note": "two-letter answer, D or E, leaning E; counted half each by the rule printed before the vote (E was Krea 2 Turbo, D Qwen-Image-2.1)"
+  }
+ ],
+ "tally": {
+  "qwen21": 5.5,
+  "krea-dense": 2.5,
+  "fibo": 0.5,
+  "qwena": 0.5
+ },
+ "tally_total_prompts": 9,
+ "six_model_round": {
+  "voted_at": "2026-10-22T06:23:17Z",
+  "sheets": "nine sheets, one per prompt (p1 to p9), six models, seed 101, letters A to F shuffled per sheet; the key was opened after the vote",
+  "answer": "The voter looked at the new sheets and kept the same picks as in the first vote (translated from the Spanish answer: \"I have seen the photos, I stay with the same ones I told you last time\").",
+  "result": "the same nine picks as in the five-model vote; FLUX 3 Image Klein received no vote"
+ },
+ "tally_six_models": {
+  "qwen21": 5.5,
+  "krea-dense": 2.5,
+  "fibo": 0.5,
+  "qwena": 0.5,
+  "moss-prompt": 0,
+  "klein": 0
+ }
+}

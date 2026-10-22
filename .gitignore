@@ -1,0 +1,8 @@
+runs/
+__pycache__/
+*.pyc
+*.safetensors
+*.ckpt
+*.pt
+*.gguf
+.DS_Store

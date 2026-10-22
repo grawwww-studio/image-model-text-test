@@ -1,0 +1,326 @@
+[
+ {
+  "file": "c01_pos.png",
+  "kind": "pos",
+  "shown": "GRA / WWWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c01_neg.png",
+  "kind": "neg",
+  "shown": "GRA / WWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c02_pos.png",
+  "kind": "pos",
+  "shown": "GRA / WWWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c02_neg.png",
+  "kind": "neg",
+  "shown": "GRA / WWWWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c03_pos.png",
+  "kind": "pos",
+  "shown": "LIME",
+  "expected": [
+   {
+    "s": "LIME",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c03_neg.png",
+  "kind": "neg",
+  "shown": "LIMF",
+  "expected": [
+   {
+    "s": "LIME",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c04_pos.png",
+  "kind": "pos",
+  "shown": "BERRY",
+  "expected": [
+   {
+    "s": "BERRY",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c04_neg.png",
+  "kind": "neg",
+  "shown": "BERY",
+  "expected": [
+   {
+    "s": "BERRY",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c05_pos.png",
+  "kind": "pos",
+  "shown": "grawwww",
+  "expected": [
+   {
+    "s": "grawwww",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c05_neg.png",
+  "kind": "neg",
+  "shown": "grawwwv",
+  "expected": [
+   {
+    "s": "grawwww",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c06_pos.png",
+  "kind": "pos",
+  "shown": "650 S / TO / 72 S",
+  "expected": [
+   {
+    "s": "650 S TO 72 S",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c06_neg.png",
+  "kind": "neg",
+  "shown": "650 S / TO / 27 S",
+  "expected": [
+   {
+    "s": "650 S TO 72 S",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c07_pos.png",
+  "kind": "pos",
+  "shown": "LARA / AI-GENERATED PRESENTER",
+  "expected": [
+   {
+    "s": "LARA",
+    "min_count": 1
+   },
+   {
+    "s": "AI-GENERATED PRESENTER",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c07_neg.png",
+  "kind": "neg",
+  "shown": "LAKA / AI-GENERATED PRESENTOR",
+  "expected": [
+   {
+    "s": "LARA",
+    "min_count": 1
+   },
+   {
+    "s": "AI-GENERATED PRESENTER",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c08_pos.png",
+  "kind": "pos",
+  "shown": "LIME · BERRY",
+  "expected": [
+   {
+    "s": "LIME · BERRY",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c08_neg.png",
+  "kind": "neg",
+  "shown": "LIME · BERY",
+  "expected": [
+   {
+    "s": "LIME · BERRY",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c09_pos.png",
+  "kind": "pos",
+  "shown": "washed black hoodie",
+  "expected": [
+   {
+    "s": "washed black hoodie",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c09_neg.png",
+  "kind": "neg",
+  "shown": "washed black hoodle",
+  "expected": [
+   {
+    "s": "washed black hoodie",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c10_pos.png",
+  "kind": "pos",
+  "shown": "AI-generated · fictional / product and brand",
+  "expected": [
+   {
+    "s": "AI-generated · fictional product and brand",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c10_neg.png",
+  "kind": "neg",
+  "shown": "AI-generated · fictional / product and brnad",
+  "expected": [
+   {
+    "s": "AI-generated · fictional product and brand",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c11_pos.png",
+  "kind": "pos",
+  "shown": "GRA / WWWW /  / GRA / WWWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 2
+   }
+  ]
+ },
+ {
+  "file": "c11_neg.png",
+  "kind": "neg",
+  "shown": "GRA / WWWW /  / GRA / WWW",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 2
+   }
+  ]
+ },
+ {
+  "file": "c12_pos.png",
+  "kind": "pos",
+  "shown": "grawwww",
+  "expected": [
+   {
+    "s": "grawwww",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "c12_neg.png",
+  "kind": "neg",
+  "shown": "grawww",
+  "expected": [
+   {
+    "s": "grawwww",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "pack_b03.png",
+  "kind": "pos",
+  "shown": "real pack shot of a fictional product (image not included)",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   },
+   {
+    "s": "LIME",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "pack_b04.png",
+  "kind": "pos",
+  "shown": "real pack shot of a fictional product (image not included)",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   },
+   {
+    "s": "BERRY",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "pack_b05.png",
+  "kind": "pos",
+  "shown": "real pack shot of a fictional product (image not included)",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   }
+  ]
+ },
+ {
+  "file": "pack_b01.png",
+  "kind": "pos",
+  "shown": "real pack shot of a fictional product (image not included)",
+  "expected": [
+   {
+    "s": "grawwww",
+    "min_count": 1
+   }
+  ]
+ }
+]

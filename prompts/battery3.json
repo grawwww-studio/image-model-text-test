@@ -1,0 +1,334 @@
+{
+ "battery": "Battery 3, hard prompts (2026-10-21)",
+ "written": "2026-10-21 23:12 UTC, before any battery-3 image was generated",
+ "formats": "FORMATS DIFFER, INTENT IS THE SAME: krea-dense, moss-prompt, qwen21, qwena and klein get the same dense natural-language prompt ('prompt'; for Klein it is a full scene caption written by us, the card's no-upsampler path); FIBO 2.0-dev gets its structured JSON caption ('fibo_caption') that says the same thing.",
+ "seeds": [
+  101,
+  102
+ ],
+ "seed_policy": "seed 101 for every model first, then 102; seed 102 is dropped first for fibo and qwena if time runs short",
+ "settings": "Same settings per arm as battery 2 (see prompts/battery2.json 'settings'); klein: distilled bf16, 16 steps euler/simple cfg 1 (card defaults).",
+ "scoring": "Per image, per rubric item: PASS/FAIL by an AI visual reading of the full image and crops (labelled AI reading; not a person); h4 also by the OCR c2 reader of record (Unlimited-OCR, exact string match after upper-casing and removing spaces). An image PASSES only if every rubric item passes. Result: passes out of 12 per model and per prompt. No blind vote (objective rubric). Failures get a one-line note.",
+ "prompts": [
+  {
+   "id": "h1-count7",
+   "canvas": [
+    1792,
+    1024
+   ],
+   "category": "counting (GenEval)",
+   "intent": "Exactly seven red apples in a single row on a wooden table.",
+   "rubric": [
+    "R1 exactly 7 apples are visible (not 6, not 8)",
+    "R2 every apple is red",
+    "R3 the apples form one row (single line, left to right)"
+   ],
+   "prompt": "A realistic photograph of exactly seven red apples lined up in one straight row, evenly spaced from left to right, on a rustic wooden table. Each apple is a whole, glossy, uniformly red apple with a short stem; there are seven apples in total, no more and no fewer, and no other fruit. Soft daylight from a window on the left, gentle shadows on the wood grain, shallow depth of field with a plain blurred kitchen background, wide landscape frame.",
+   "fibo_caption": {
+    "short_description": "A realistic photograph of exactly seven red apples in one straight row on a rustic wooden table, wide landscape frame.",
+    "objects": [
+     {
+      "description": "Seven whole, glossy, uniformly red apples with short stems lined up in one straight row, evenly spaced from left to right, no other fruit.",
+      "location": "middle center of the frame",
+      "relative_size": "large within frame",
+      "number_of_objects": 7,
+      "shape_and_color": "round red apples"
+     }
+    ],
+    "background_setting": "A rustic wooden table with visible wood grain in front of a plain, blurred kitchen background.",
+    "lighting": {
+     "conditions": "soft daylight",
+     "direction": "from a window on the left",
+     "shadows": "gentle, soft shadows on the wood"
+    },
+    "aesthetics": {
+     "composition": "seven apples evenly spaced in a single horizontal row across the width of the frame",
+     "color_scheme": "red apples on warm brown wood",
+     "mood_atmosphere": "calm, clean"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on all seven apples",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "photograph",
+    "context": "A simple still life used to count objects.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "h2-bind-stacks",
+   "canvas": [
+    1792,
+    1024
+   ],
+   "category": "attribute binding (T2I-CompBench / GenEval colour attribution)",
+   "intent": "Left stack: blue cube on top of a red sphere; right stack: red cube on top of a blue sphere; white table.",
+   "rubric": [
+    "R1 two separate stacks side by side (4 objects: 2 cubes, 2 spheres)",
+    "R2 left stack: BLUE cube on top of a RED sphere",
+    "R3 right stack: RED cube on top of a BLUE sphere",
+    "R4 in both stacks the cube is on top and the sphere underneath"
+   ],
+   "prompt": "A clean studio render on a white table against a plain white background, seen from the front at eye level in a wide landscape frame. On the left stands a first stack: a blue cube resting on top of a red sphere. Next to it on the right stands a second stack: a red cube resting on top of a blue sphere. Four objects in total, two cubes and two spheres, each solid in one flat colour (pure blue or pure red), each cube balanced on the sphere beneath it. Soft top light, soft shadows on the white table.",
+   "fibo_caption": {
+    "short_description": "Two stacks of simple shapes on a white table: on the left a blue cube on top of a red sphere, on the right a red cube on top of a blue sphere.",
+    "objects": [
+     {
+      "description": "A blue cube resting on top of a red sphere, forming the left stack.",
+      "location": "middle left of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 2,
+      "shape_and_color": "blue cube on top, red sphere underneath"
+     },
+     {
+      "description": "A red cube resting on top of a blue sphere, forming the right stack next to the left one.",
+      "location": "middle right of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 2,
+      "shape_and_color": "red cube on top, blue sphere underneath"
+     }
+    ],
+    "background_setting": "A white table surface in front of a plain white background.",
+    "lighting": {
+     "conditions": "soft top light",
+     "direction": "from above",
+     "shadows": "soft shadows on the white table"
+    },
+    "aesthetics": {
+     "composition": "two stacks side by side, centered, wide landscape frame",
+     "color_scheme": "pure blue and pure red on white",
+     "mood_atmosphere": "clean, neutral"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "deep",
+     "focus": "sharp on both stacks",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "3D render",
+    "context": "A simple colour-binding test arrangement.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "h3-cat-dog",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "category": "spatial relation + negation (T2I-CompBench spatial, DPG-Bench)",
+   "intent": "A cat sitting left of a dog; only the dog wears a yellow scarf; exactly two animals.",
+   "rubric": [
+    "R1 the cat is on the left and the dog on the right (viewer's left/right)",
+    "R2 a yellow scarf is on the dog",
+    "R3 the cat wears no scarf",
+    "R4 exactly two animals (one cat, one dog), no other animals"
+   ],
+   "prompt": "A photograph of a cat and a dog sitting side by side on a wooden floor in a bright living room, tall portrait frame. The cat, a grey tabby, sits on the left of the frame; the dog, a golden retriever, sits on the right of the frame, both facing the camera. The dog wears a yellow scarf knotted around its neck; the cat wears nothing at all. Exactly two animals are in the picture, one cat and one dog: no other animals, no people. Soft natural window light, shallow depth of field, a sofa blurred in the background.",
+   "fibo_caption": {
+    "short_description": "A photograph of a grey tabby cat sitting on the left and a golden retriever sitting on the right, the dog wearing a yellow scarf, in a bright living room.",
+    "objects": [
+     {
+      "description": "A grey tabby cat sitting upright and facing the camera, wearing nothing.",
+      "location": "middle left of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 1,
+      "pose": "sitting, facing the camera"
+     },
+     {
+      "description": "A golden retriever sitting upright and facing the camera, wearing a yellow scarf knotted around its neck.",
+      "location": "middle right of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 1,
+      "pose": "sitting, facing the camera",
+      "clothing": "a yellow scarf around the neck"
+     }
+    ],
+    "background_setting": "A bright living room with a wooden floor and a sofa blurred in the background; only these two animals, no other animals, no people.",
+    "lighting": {
+     "conditions": "soft natural window light",
+     "direction": "from the side",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the cat on the left and the dog on the right, side by side, tall portrait frame",
+     "color_scheme": "grey, golden, yellow accent",
+     "mood_atmosphere": "warm, friendly"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on both animals",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "photograph",
+    "context": "A pet portrait testing left-right placement and a single accessory.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "h4-chalkboard",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "category": "scene text, a full sentence (DPG-Bench / text rendering)",
+   "intent": "A cafe chalkboard that reads FRESH BREAD DAILY 7AM-2PM.",
+   "rubric": [
+    "R1 the board text reads exactly FRESH BREAD DAILY 7AM-2PM (every word and character, incl. 7AM-2PM with the hyphen; line breaks allowed)",
+    "R2 no extra, garbled or misspelled words on the board"
+   ],
+   "prompt": "A photograph of a café chalkboard sign standing on the pavement outside a small bakery-café, a black slate board in a worn wooden A-frame, tall portrait frame. The board is hand-lettered in white chalk in neat capital letters and reads exactly: \"FRESH BREAD DAILY 7AM-2PM\". The words are large and clearly legible, spread over a few lines, with no other writing on the board. Morning light, a blurred cobbled street and a shop window with warm lights in the background, shallow depth of field.",
+   "fibo_caption": {
+    "short_description": "A photograph of a café chalkboard A-frame sign outside a small bakery-café whose white chalk lettering reads FRESH BREAD DAILY 7AM-2PM, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A black slate chalkboard in a worn wooden A-frame stand on the pavement, hand-lettered in white chalk capitals, with no other writing.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame"
+     }
+    ],
+    "background_setting": "A blurred cobbled street and a bakery-café shop window with warm lights in the morning.",
+    "lighting": {
+     "conditions": "soft morning light",
+     "direction": "from the side",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the board centered and filling most of the tall frame",
+     "color_scheme": "black, white chalk, warm brown",
+     "mood_atmosphere": "cosy, inviting"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on the chalkboard lettering",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "photograph",
+    "context": "A bakery-café sidewalk sign.",
+    "artistic_style": "realistic",
+    "text_render": [
+     {
+      "text": "FRESH BREAD DAILY 7AM-2PM",
+      "location": "middle center of the frame",
+      "size": "large",
+      "color": "white",
+      "font": "hand-lettered chalk capitals",
+      "appearance_details": "Neat white chalk capitals over a few lines, the only writing on the board."
+     }
+    ]
+   }
+  },
+  {
+   "id": "h5-handshake",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "category": "interacting hands (the classic failure)",
+   "intent": "Close-up of two people shaking hands, both hands fully visible.",
+   "rubric": [
+    "R1 exactly two hands are visible, one from each person (no third hand)",
+    "R2 each hand shows five fingers (four fingers and a thumb), none extra, missing or fused",
+    "R3 the grip is plausible (palms meet, thumbs wrap over, wrists connect to forearms)"
+   ],
+   "prompt": "A close-up photograph of two people shaking hands, tall portrait frame. A firm handshake in the exact centre: a man's hand in a dark navy suit sleeve with a white cuff enters from the left, a woman's hand in a light grey blazer sleeve enters from the right, palms pressed together, fingers wrapped around each other's hand and thumbs over the top. Both hands are fully visible and sharp, every finger clearly visible and correctly formed, five fingers on each hand, natural skin with fine creases. Only the two forearms and hands are in the frame. Soft office daylight, softly blurred glass-walled office behind, shallow depth of field.",
+   "fibo_caption": {
+    "short_description": "A close-up photograph of a firm handshake between two people, both hands fully visible with five correctly formed fingers each, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A man's hand in a dark navy suit sleeve with a white cuff, entering from the left, gripping the other hand, thumb over the top, five fingers visible.",
+      "location": "middle center of the frame",
+      "relative_size": "large within frame",
+      "number_of_objects": 1,
+      "pose": "handshake, fingers wrapped around the other hand"
+     },
+     {
+      "description": "A woman's hand in a light grey blazer sleeve, entering from the right, gripping the other hand, palms pressed together, five fingers visible.",
+      "location": "middle center of the frame",
+      "relative_size": "large within frame",
+      "number_of_objects": 1,
+      "pose": "handshake, fingers wrapped around the other hand"
+     }
+    ],
+    "background_setting": "A softly blurred glass-walled office; only the two forearms and hands are in the frame.",
+    "lighting": {
+     "conditions": "soft office daylight",
+     "direction": "from the side",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the joined hands centered, forearms entering from the left and right edges, tall portrait frame",
+     "color_scheme": "navy, white, light grey, natural skin tones",
+     "mood_atmosphere": "professional, friendly"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on both hands",
+     "camera_angle": "eye level",
+     "lens_focal_length": "85mm"
+    },
+    "style_medium": "photograph",
+    "context": "A business handshake close-up.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "h6-clock345",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "category": "analogue clock reading (a known failure of image models)",
+   "intent": "A person holding an analogue wall clock that shows exactly 3:45.",
+   "rubric": [
+    "R1 a person holds a round analogue clock with a clock face",
+    "R2 the minute (long) hand points at the 9 (45 minutes)",
+    "R3 the hour (short) hand is between 3 and 4 (about three quarters of the way to the 4)"
+   ],
+   "prompt": "A photograph of a person in a plain grey sweater holding up a large round analogue wall clock in front of their chest with both hands, tall portrait frame, the clock clearly in focus and facing the camera. The clock has a white face with black Arabic numerals 1 to 12, a short thick hour hand and a long thin minute hand, and it shows exactly 3:45: the long minute hand points straight at the 9 and the short hour hand sits between the 3 and the 4, three quarters of the way towards the 4. Soft indoor light, plain pale wall behind, shallow depth of field.",
+   "fibo_caption": {
+    "short_description": "A photograph of a person in a grey sweater holding a large round analogue wall clock showing exactly 3:45, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A large round analogue wall clock with a white face and black Arabic numerals 1 to 12, showing exactly 3:45: the long minute hand points straight at the 9 and the short hour hand sits between the 3 and the 4, three quarters of the way towards the 4.",
+      "location": "middle center of the frame",
+      "relative_size": "large within frame",
+      "number_of_objects": 1,
+      "shape_and_color": "round, white face, black numerals and hands"
+     },
+     {
+      "description": "A person in a plain grey sweater holding the clock up in front of their chest with both hands.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame",
+      "pose": "standing, holding the clock up with both hands, facing the camera"
+     }
+    ],
+    "background_setting": "A plain pale wall indoors.",
+    "lighting": {
+     "conditions": "soft indoor light",
+     "direction": "from the front and side",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the clock face centered and facing the camera in a tall portrait frame",
+     "color_scheme": "grey, white, black",
+     "mood_atmosphere": "calm, neutral"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on the clock face",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "photograph",
+    "context": "A clock-reading test: 3:45.",
+    "artistic_style": "realistic"
+   }
+  }
+ ],
+ "note": "Published copy. Only the title and a file pointer in 'settings' were reworded; the rubric, every prompt and every structured caption are unchanged. The rubric was written before any battery-3 image was generated (see 'written')."
+}

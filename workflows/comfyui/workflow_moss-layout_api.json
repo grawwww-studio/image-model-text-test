@@ -1,0 +1,114 @@
+{
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "moss_image_sft_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "15": {
+  "class_type": "SkipLayerGuidanceDiTSimple",
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "double_layers": "",
+   "single_layers": "22",
+   "start_percent": 0.0,
+   "end_percent": 1.0
+  }
+ },
+ "2": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3.5_9b_int8_convrot.safetensors",
+   "type": "moss_image",
+   "device": "default"
+  }
+ },
+ "3": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "flux2-vae_small.safetensors"
+  }
+ },
+ "4": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "{\"summary\":{\"caption\":\"A hero product photograph of one standard 330 ml aluminium soda can with a lime-green wrap-around label standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, cold condensation droplets, tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Standard 330 ml aluminium soda can with a lime-green label, condensation droplets.\",\"bbox\":[-457,-241,404,241]},{\"label\":\"text\",\"caption\":\"Huge bold black sans-serif capitals, first line of the brand name.\",\"text\":\"GRA\",\"bbox\":[-296,-210,-179,210]},{\"label\":\"text\",\"caption\":\"Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the brand name.\",\"text\":\"WWWW\",\"bbox\":[-180,-221,-62,221]},{\"label\":\"object\",\"caption\":\"Yellow rectangular band across the bottom of the label.\",\"bbox\":[161,-216,287,216]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on the yellow band.\",\"text\":\"LIME\",\"bbox\":[175,-175,273,175]},{\"label\":\"object\",\"caption\":\"Soft out-of-focus wildflowers and grass in the foreground.\",\"bbox\":[358,-512,896,512]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "clip": [
+    "2",
+    0
+   ]
+  }
+ },
+ "5": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact",
+   "clip": [
+    "2",
+    0
+   ]
+  }
+ },
+ "6": {
+  "class_type": "EmptyFlux2LatentImage",
+  "inputs": {
+   "width": 1024,
+   "height": 1792,
+   "batch_size": 1
+  }
+ },
+ "7": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": [
+    "15",
+    0
+   ],
+   "positive": [
+    "4",
+    0
+   ],
+   "negative": [
+    "5",
+    0
+   ],
+   "latent_image": [
+    "6",
+    0
+   ],
+   "seed": 101,
+   "steps": 50,
+   "cfg": 3.0,
+   "sampler_name": "euler",
+   "scheduler": "simple",
+   "denoise": 1.0
+  }
+ },
+ "8": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "7",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  }
+ },
+ "9": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": [
+    "8",
+    0
+   ],
+   "filename_prefix": "t004/b03-lime-hero_moss-layout_101"
+  }
+ }
+}

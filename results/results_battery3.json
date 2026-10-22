@@ -1,0 +1,1292 @@
+{
+ "spec": "prompts/battery3.json",
+ "reader": "AI visual reading (subjective, one AI reader, not a person); OCR c2 (Unlimited-OCR) for h4",
+ "per_image": [
+  {
+   "prompt": "h1-count7",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h1-count7_fibo_101.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "8 apples, not 7",
+   "exec_s": 81.52,
+   "peak_mib": 23017,
+   "cold": true,
+   "pass": false
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h1-count7_fibo_102.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "8 apples, not 7",
+   "exec_s": 81.53,
+   "peak_mib": 22847,
+   "cold": true,
+   "pass": false
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h1-count7_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples in one row",
+   "exec_s": 10.53,
+   "peak_mib": 24024,
+   "cold": true,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h1-count7_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples",
+   "exec_s": 10.55,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h1-count7_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples; 3 of them with yellow-orange patches but red dominant",
+   "exec_s": 22.4,
+   "peak_mib": 20216,
+   "cold": true,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h1-count7_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples, dark red with yellow-green patches on two",
+   "exec_s": 12.71,
+   "peak_mib": 20280,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h1-count7_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples",
+   "exec_s": 36.57,
+   "peak_mib": 19032,
+   "cold": true,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h1-count7_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples",
+   "exec_s": 27.69,
+   "peak_mib": 15738,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h1-count7_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples",
+   "exec_s": 27.56,
+   "peak_mib": 18202,
+   "cold": true,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h1-count7_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "7 apples",
+   "exec_s": 18.61,
+   "peak_mib": 18140,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h1-count7_qwena_101.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "6 apples, not 7",
+   "exec_s": 127.78,
+   "peak_mib": 23836,
+   "cold": true,
+   "pass": false
+  },
+  {
+   "prompt": "h1-count7",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h1-count7_qwena_102.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "6 apples, not 7",
+   "exec_s": 127.63,
+   "peak_mib": 23804,
+   "cold": true,
+   "pass": false
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h2-bind-stacks_fibo_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "colours muted (maroon sphere, slate-blue cube) but bindings right",
+   "exec_s": 81.61,
+   "peak_mib": 23019,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h2-bind-stacks_fibo_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "colours muted (maroon sphere, slate-blue cube) but bindings right",
+   "exec_s": 81.68,
+   "peak_mib": 22865,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h2-bind-stacks_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 10.51,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h2-bind-stacks_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 10.54,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h2-bind-stacks_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 12.64,
+   "peak_mib": 20280,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h2-bind-stacks_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 12.66,
+   "peak_mib": 20280,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h2-bind-stacks_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 27.68,
+   "peak_mib": 15738,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h2-bind-stacks_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 27.58,
+   "peak_mib": 15738,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h2-bind-stacks_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 18.59,
+   "peak_mib": 18138,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h2-bind-stacks_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 18.58,
+   "peak_mib": 18140,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h2-bind-stacks_qwena_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 119.54,
+   "peak_mib": 23708,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h2-bind-stacks",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h2-bind-stacks_qwena_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 119.42,
+   "peak_mib": 23804,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h3-cat-dog_fibo_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 81.63,
+   "peak_mib": 22997,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h3-cat-dog_fibo_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 81.64,
+   "peak_mib": 22827,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h3-cat-dog_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 10.6,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h3-cat-dog_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 10.6,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h3-cat-dog_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 12.72,
+   "peak_mib": 20312,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h3-cat-dog_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 12.72,
+   "peak_mib": 20312,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h3-cat-dog_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 28.0,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h3-cat-dog_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 28.01,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h3-cat-dog_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 19.06,
+   "peak_mib": 19162,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h3-cat-dog_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 18.64,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h3-cat-dog_qwena_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 119.76,
+   "peak_mib": 23676,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h3-cat-dog",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h3-cat-dog_qwena_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true,
+    "R4": true
+   },
+   "note": "",
+   "exec_s": 119.45,
+   "peak_mib": 23772,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h4-chalkboard_fibo_101.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 81.66,
+   "peak_mib": 22997,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nDAILY\n\n7AM ODIA\n\nDRIAD\n\nDAILY\n\n7AM-2PM",
+   "ocr_c2_pass": false,
+   "ocr_c2_pass_pre_fix": false
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h4-chalkboard_fibo_102.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 81.67,
+   "peak_mib": 22827,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\nDINLAND\n\nDAILY\n\n7AM-2PM",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h4-chalkboard_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 10.57,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nDREAD\n\nFRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\nLIVE\n7AM-2PM",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h4-chalkboard_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 10.58,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nFRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\nDAME\n7AM-2PM",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h4-chalkboard_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 12.68,
+   "peak_mib": 20280,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\n7AM-2PM",
+   "ocr_c2_pass": false,
+   "ocr_c2_pass_pre_fix": false
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h4-chalkboard_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 12.71,
+   "peak_mib": 20280,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\nBREAD\n\nBREAD\nDAILY\n7AM-2PM\n\n7AM-ZPM",
+   "ocr_c2_pass": false,
+   "ocr_c2_pass_pre_fix": false
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h4-chalkboard_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 27.75,
+   "peak_mib": 15738,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nDAILY\n\n7.8m 2.5m\n\nDAILY\n\n7AM-2PM",
+   "ocr_c2_pass": false,
+   "ocr_c2_pass_pre_fix": false
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h4-chalkboard_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "extra small shop-window text 'Bakery-Cafe' outside the board",
+   "exec_s": 27.78,
+   "peak_mib": 15738,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nDAILY\n\n7AM-2DM\n\nDAILY\n\n7AM-2PM",
+   "ocr_c2_pass": false,
+   "ocr_c2_pass_pre_fix": false
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h4-chalkboard_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 18.64,
+   "peak_mib": 18170,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\nUNIL\n\n7AM-2PM",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h4-chalkboard_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true
+   },
+   "note": "",
+   "exec_s": 18.63,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true,
+   "ocr_c2_text": "FRESH\n\nFRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM\n\n7AM-2PM",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h4-chalkboard_qwena_101.png",
+   "items": {
+    "R1": false,
+    "R2": true
+   },
+   "note": "adds a trailing period after 7AM-2PM",
+   "exec_s": 119.79,
+   "peak_mib": 23772,
+   "cold": false,
+   "pass": false,
+   "ocr_c2_text": "FRESH\n\nFRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM.\n\n7AM-2PM.",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h4-chalkboard",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h4-chalkboard_qwena_102.png",
+   "items": {
+    "R1": false,
+    "R2": true
+   },
+   "note": "adds a trailing period after 7AM-2PM",
+   "exec_s": 119.48,
+   "peak_mib": 23708,
+   "cold": false,
+   "pass": false,
+   "ocr_c2_text": "FRESH\n\nBREAD\n\nFRESH\n\nBREAD\n\nDAILY\n\n7AM-2PM.\n\n7AM-2PM.",
+   "ocr_c2_pass": true,
+   "ocr_c2_pass_pre_fix": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h5-handshake_fibo_101.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "pulled back: the people's other hands hang at the sides (4 hands visible), shaking hands small and low-res",
+   "exec_s": 81.63,
+   "peak_mib": 22997,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h5-handshake_fibo_102.png",
+   "items": {
+    "R1": false,
+    "R2": true,
+    "R3": true
+   },
+   "note": "pulled back again: the man's other hand hangs at the left (3+ hands visible), shaking hands small",
+   "exec_s": 81.65,
+   "peak_mib": 22827,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h5-handshake_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 10.62,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h5-handshake_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 10.57,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h5-handshake_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "hands in soft focus",
+   "exec_s": 12.79,
+   "peak_mib": 21368,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h5-handshake_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "smallish hands",
+   "exec_s": 12.77,
+   "peak_mib": 21368,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h5-handshake_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 27.9,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h5-handshake_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 27.94,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h5-handshake_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 18.67,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h5-handshake_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 18.65,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h5-handshake_qwena_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 120.09,
+   "peak_mib": 23772,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h5-handshake",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h5-handshake_qwena_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "",
+   "exec_s": 119.68,
+   "peak_mib": 23740,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "fibo",
+   "seed": 101,
+   "file": "images/battery3/fibo/h6-clock345_fibo_101.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": true
+   },
+   "note": "four hands: long thick hand at 3, thin hands at 9 and 7; short hand between 3 and 4",
+   "exec_s": 81.65,
+   "peak_mib": 22997,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "fibo",
+   "seed": 102,
+   "file": "images/battery3/fibo/h6-clock345_fibo_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "long hand on 9, short hand between 3 and 4 (about 56 % of the way)",
+   "exec_s": 81.66,
+   "peak_mib": 22827,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "klein",
+   "seed": 101,
+   "file": "images/battery3/klein/h6-clock345_klein_101.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "reads about 1:52; the thin hand near 9 is a second hand",
+   "exec_s": 10.59,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "klein",
+   "seed": 102,
+   "file": "images/battery3/klein/h6-clock345_klein_102.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "hands at 8 (thin), about 9.7 and 1.5: not 3:45",
+   "exec_s": 10.59,
+   "peak_mib": 24024,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "krea-dense",
+   "seed": 101,
+   "file": "images/battery3/krea-dense/h6-clock345_krea-dense_101.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "reads about 10:10 (hour hand at 10, long hand at 2); a thin hand at 9",
+   "exec_s": 12.79,
+   "peak_mib": 21368,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "krea-dense",
+   "seed": 102,
+   "file": "images/battery3/krea-dense/h6-clock345_krea-dense_102.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "two long thick hands (9 and 2) and a short one at 3: not 3:45",
+   "exec_s": 12.8,
+   "peak_mib": 21368,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "file": "images/battery3/moss-prompt/h6-clock345_moss-prompt_101.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": true
+   },
+   "note": "one thick hand just past 3 (hour hand ok) and a thin long hand at about 10: minute hand not on 9",
+   "exec_s": 27.89,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "file": "images/battery3/moss-prompt/h6-clock345_moss-prompt_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": false
+   },
+   "note": "thin long hand on 9 but the short hand points to about 4.6, not between 3 and 4",
+   "exec_s": 27.94,
+   "peak_mib": 18586,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "qwen21",
+   "seed": 101,
+   "file": "images/battery3/qwen21/h6-clock345_qwen21_101.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "long hand on 9, short hand between 3 and 4 close to 4: reads 3:45",
+   "exec_s": 18.69,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "qwen21",
+   "seed": 102,
+   "file": "images/battery3/qwen21/h6-clock345_qwen21_102.png",
+   "items": {
+    "R1": true,
+    "R2": true,
+    "R3": true
+   },
+   "note": "long hand on 9, short hand between 3 and 4 but only a third of the way to the 4",
+   "exec_s": 18.67,
+   "peak_mib": 18172,
+   "cold": false,
+   "pass": true
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "qwena",
+   "seed": 101,
+   "file": "images/battery3/qwena/h6-clock345_qwena_101.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "five hands, hour at 10, long hand at 2, extra hands at 6, 9 and 12",
+   "exec_s": 120.1,
+   "peak_mib": 23804,
+   "cold": false,
+   "pass": false
+  },
+  {
+   "prompt": "h6-clock345",
+   "arm": "qwena",
+   "seed": 102,
+   "file": "images/battery3/qwena/h6-clock345_qwena_102.png",
+   "items": {
+    "R1": true,
+    "R2": false,
+    "R3": false
+   },
+   "note": "three thick hands (9, 2 and 5) plus a thin one: no readable 3:45",
+   "exec_s": 119.8,
+   "peak_mib": 23740,
+   "cold": false,
+   "pass": false
+  }
+ ],
+ "summary": {
+  "krea-dense": {
+   "passes": 10,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "2/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "2/2",
+    "h5-handshake": "2/2",
+    "h6-clock345": "0/2"
+   },
+   "median_warm_s": 12.7,
+   "peak_mib": 21368
+  },
+  "moss-prompt": {
+   "passes": 10,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "2/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "2/2",
+    "h5-handshake": "2/2",
+    "h6-clock345": "0/2"
+   },
+   "median_warm_s": 27.9,
+   "peak_mib": 19032
+  },
+  "qwen21": {
+   "passes": 12,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "2/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "2/2",
+    "h5-handshake": "2/2",
+    "h6-clock345": "2/2"
+   },
+   "median_warm_s": 18.6,
+   "peak_mib": 19162
+  },
+  "fibo": {
+   "passes": 7,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "0/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "2/2",
+    "h5-handshake": "0/2",
+    "h6-clock345": "1/2"
+   },
+   "median_warm_s": 81.7,
+   "peak_mib": 23019
+  },
+  "qwena": {
+   "passes": 6,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "0/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "0/2",
+    "h5-handshake": "2/2",
+    "h6-clock345": "0/2"
+   },
+   "median_warm_s": 119.7,
+   "peak_mib": 23836
+  },
+  "klein": {
+   "passes": 10,
+   "n": 12,
+   "per_prompt": {
+    "h1-count7": "2/2",
+    "h2-bind-stacks": "2/2",
+    "h3-cat-dog": "2/2",
+    "h4-chalkboard": "2/2",
+    "h5-handshake": "2/2",
+    "h6-clock345": "0/2"
+   },
+   "median_warm_s": 10.6,
+   "peak_mib": 24024
+  }
+ }
+}

@@ -1,0 +1,11 @@
+# Environment of the FIBO arm (fibo_labels.py, fibo_battery2.py): Python 3.12, 24 GB CUDA GPU. diffusers from the git commit we ran (0.42.0.dev0).
+torch==2.10.0
+torchvision==0.25.0
+transformers==5.20.2
+accelerate==1.15.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+pillow
+numpy
+huggingface_hub
+diffusers @ git+https://github.com/huggingface/diffusers@de988b7ee77c393a63865d265d19e267ef9c7bf5

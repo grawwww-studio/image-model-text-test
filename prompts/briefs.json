@@ -1,0 +1,713 @@
+{
+ "canvas": [
+  1024,
+  1792
+ ],
+ "seeds": [
+  101,
+  102,
+  103
+ ],
+ "briefs": [
+  {
+   "id": "b01-hoodie-flat",
+   "source": "product photo of a washed black hoodie with an orange embroidered lowercase wordmark",
+   "strings": [
+    {
+     "s": "grawwww",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A premium e-commerce product photograph, shot straight down from above, of a washed black oversized cotton hoodie with its hood laid behind the neck, a kangaroo pocket and two drawstrings, laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame. On the left chest of the hoodie (the right side of the image), in neat orange embroidery thread, the lowercase word \"grawwww\" is stitched in a rounded humanist sans-serif, large enough to read easily, about one fifth of the hoodie's width. The word is spelled g, r, a, w, w, w, w: one g, one r, one a, four w. No other text, logo or tag anywhere.",
+   "layout_caption": "A premium e-commerce product photograph, shot straight down from above, of a washed black oversized cotton hoodie laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      60,
+      90,
+      940,
+      910
+     ],
+     "caption": "Washed black oversized cotton hoodie laid flat, hood behind the neck, kangaroo pocket and two drawstrings."
+    },
+    {
+     "label": "text",
+     "text": "grawwww",
+     "bbox": [
+      390,
+      545,
+      435,
+      765
+     ],
+     "caption": "Neat orange embroidery thread, lowercase, rounded humanist sans-serif, on the left chest."
+    }
+   ],
+   "ie": {
+    "ref": "pack_b01.png",
+    "scene": "shot straight down from above, laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame"
+   },
+   "layout_json": "{\"summary\":{\"caption\":\"A premium e-commerce product photograph, shot straight down from above, of a washed black oversized cotton hoodie laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Washed black oversized cotton hoodie laid flat, hood behind the neck, kangaroo pocket and two drawstrings.\",\"bbox\":[-789,-420,789,420]},{\"label\":\"text\",\"caption\":\"Neat orange embroidery thread, lowercase, rounded humanist sans-serif, on the left chest.\",\"text\":\"grawwww\",\"bbox\":[-198,46,-116,272]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": "Create a photo of this exact product, shot straight down from above, laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame. Keep the product, its label, the wordmark and every letter on it exactly the same as in the reference image."
+  },
+  {
+   "id": "b02-hoodie-chest",
+   "source": "chest close-up of the hoodie with the readable orange wordmark, faceless crop",
+   "strings": [
+    {
+     "s": "grawwww",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A close-up lifestyle photograph of a person's torso wearing a washed black oversized cotton hoodie, framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, shot on a 50 mm lens in a tall portrait frame. On the left chest (the right side of the image), orange embroidered lowercase lettering reads \"grawwww\", large, sharp and perfectly legible, the thread catching the light, spelled g, r, a, w, w, w, w with four w. The hood and two drawstrings hang in the upper centre. No other text or logo.",
+   "layout_caption": "A close-up lifestyle photograph of a person's torso wearing a washed black oversized cotton hoodie, framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, tall portrait frame.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      0,
+      40,
+      1000,
+      960
+     ],
+     "caption": "Torso in a washed black oversized cotton hoodie, no face visible, hood and two drawstrings hanging in the upper centre."
+    },
+    {
+     "label": "text",
+     "text": "grawwww",
+     "bbox": [
+      345,
+      540,
+      395,
+      790
+     ],
+     "caption": "Orange embroidered lowercase lettering on the left chest, sharp and legible."
+    }
+   ],
+   "ie": {
+    "ref": "pack_b01.png",
+    "scene": "worn by a person whose torso is framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, tall portrait frame, the hood and two drawstrings hanging in the upper centre"
+   },
+   "layout_json": "{\"summary\":{\"caption\":\"A close-up lifestyle photograph of a person's torso wearing a washed black oversized cotton hoodie, framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Torso in a washed black oversized cotton hoodie, no face visible, hood and two drawstrings hanging in the upper centre.\",\"bbox\":[-896,-472,896,472]},{\"label\":\"text\",\"caption\":\"Orange embroidered lowercase lettering on the left chest, sharp and legible.\",\"text\":\"grawwww\",\"bbox\":[-278,40,-188,297]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": "Create a photo of this exact product, worn by a person whose torso is framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, tall portrait frame, the hood and two drawstrings hanging in the upper centre. Keep the product, its label, the wordmark and every letter on it exactly the same as in the reference image."
+  },
+  {
+   "id": "b03-lime-hero",
+   "source": "hero shot of a fictional GRAWWWW LIME 330 ml can in a sunny meadow",
+   "strings": [
+    {
+     "s": "GRAWWWW",
+     "min_count": 1
+    },
+    {
+     "s": "LIME",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A hero product photograph of one standard 330 ml aluminium soda can standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, a few cold condensation droplets on the can, tall portrait frame. The can has a lime-green wrap-around label that faces the camera. In the upper half of the label, huge bold black sans-serif capitals on two lines: \"GRA\" on the first line and \"WWWW\" directly below it, the four W's coloured cyan, magenta, yellow and black. At the bottom of the label, a yellow rectangular band with the word \"LIME\" in bold black sans-serif capitals. The brand name is spelled G, R, A, then four W (seven letters). No other text.",
+   "layout_caption": "A hero product photograph of one standard 330 ml aluminium soda can with a lime-green wrap-around label standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, cold condensation droplets, tall portrait frame.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      245,
+      265,
+      725,
+      735
+     ],
+     "caption": "Standard 330 ml aluminium soda can with a lime-green label, condensation droplets."
+    },
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      335,
+      295,
+      400,
+      705
+     ],
+     "caption": "Huge bold black sans-serif capitals, first line of the brand name."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      400,
+      285,
+      465,
+      715
+     ],
+     "caption": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the brand name."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      590,
+      290,
+      660,
+      710
+     ],
+     "caption": "Yellow rectangular band across the bottom of the label."
+    },
+    {
+     "label": "text",
+     "text": "LIME",
+     "bbox": [
+      598,
+      330,
+      652,
+      670
+     ],
+     "caption": "Bold black sans-serif capitals on the yellow band."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      700,
+      0,
+      1000,
+      1000
+     ],
+     "caption": "Soft out-of-focus wildflowers and grass in the foreground."
+    }
+   ],
+   "ie": {
+    "ref": "pack_b03.png",
+    "scene": "standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, a few cold condensation droplets, tall portrait frame"
+   },
+   "layout_json": "{\"summary\":{\"caption\":\"A hero product photograph of one standard 330 ml aluminium soda can with a lime-green wrap-around label standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, cold condensation droplets, tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Standard 330 ml aluminium soda can with a lime-green label, condensation droplets.\",\"bbox\":[-457,-241,404,241]},{\"label\":\"text\",\"caption\":\"Huge bold black sans-serif capitals, first line of the brand name.\",\"text\":\"GRA\",\"bbox\":[-296,-210,-179,210]},{\"label\":\"text\",\"caption\":\"Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the brand name.\",\"text\":\"WWWW\",\"bbox\":[-180,-221,-62,221]},{\"label\":\"object\",\"caption\":\"Yellow rectangular band across the bottom of the label.\",\"bbox\":[161,-216,287,216]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on the yellow band.\",\"text\":\"LIME\",\"bbox\":[175,-175,273,175]},{\"label\":\"object\",\"caption\":\"Soft out-of-focus wildflowers and grass in the foreground.\",\"bbox\":[358,-512,896,512]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": "Create a photo of this exact product, standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, a few cold condensation droplets, tall portrait frame. Keep the product, its label, the wordmark and every letter on it exactly the same as in the reference image."
+  },
+  {
+   "id": "b04-berry-hero",
+   "source": "hero shot of a fictional GRAWWWW BERRY 330 ml can in a pastel valley",
+   "strings": [
+    {
+     "s": "GRAWWWW",
+     "min_count": 1
+    },
+    {
+     "s": "BERRY",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A hero product photograph of one standard 330 ml aluminium soda can standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, a few cold condensation droplets on the can, tall portrait frame. The can has a crimson-red wrap-around label that faces the camera. In the upper half of the label, huge bold white sans-serif capitals on two lines: \"GRA\" on the first line and \"WWWW\" directly below it, the four W's coloured cyan, magenta, yellow and white. At the bottom of the label, a yellow rectangular band with the word \"BERRY\" in bold black sans-serif capitals. The brand name is spelled G, R, A, then four W (seven letters). No other text.",
+   "layout_caption": "A hero product photograph of one standard 330 ml aluminium soda can with a crimson-red wrap-around label standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, cold condensation droplets, tall portrait frame.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      245,
+      265,
+      725,
+      735
+     ],
+     "caption": "Standard 330 ml aluminium soda can with a crimson-red label, condensation droplets."
+    },
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      335,
+      295,
+      400,
+      705
+     ],
+     "caption": "Huge bold white sans-serif capitals, first line of the brand name."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      400,
+      285,
+      465,
+      715
+     ],
+     "caption": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      590,
+      290,
+      660,
+      710
+     ],
+     "caption": "Yellow rectangular band across the bottom of the label."
+    },
+    {
+     "label": "text",
+     "text": "BERRY",
+     "bbox": [
+      598,
+      320,
+      652,
+      680
+     ],
+     "caption": "Bold black sans-serif capitals on the yellow band."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      730,
+      0,
+      1000,
+      1000
+     ],
+     "caption": "Fresh raspberries and blueberries scattered in the foreground."
+    }
+   ],
+   "ie": {
+    "ref": "pack_b04.png",
+    "scene": "standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, a few cold condensation droplets, tall portrait frame"
+   },
+   "layout_json": "{\"summary\":{\"caption\":\"A hero product photograph of one standard 330 ml aluminium soda can with a crimson-red wrap-around label standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, cold condensation droplets, tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Standard 330 ml aluminium soda can with a crimson-red label, condensation droplets.\",\"bbox\":[-457,-241,404,241]},{\"label\":\"text\",\"caption\":\"Huge bold white sans-serif capitals, first line of the brand name.\",\"text\":\"GRA\",\"bbox\":[-296,-210,-179,210]},{\"label\":\"text\",\"caption\":\"Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name.\",\"text\":\"WWWW\",\"bbox\":[-180,-221,-62,221]},{\"label\":\"object\",\"caption\":\"Yellow rectangular band across the bottom of the label.\",\"bbox\":[161,-216,287,216]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on the yellow band.\",\"text\":\"BERRY\",\"bbox\":[175,-185,273,185]},{\"label\":\"object\",\"caption\":\"Fresh raspberries and blueberries scattered in the foreground.\",\"bbox\":[412,-512,896,512]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": "Create a photo of this exact product, standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, a few cold condensation droplets, tall portrait frame. Keep the product, its label, the wordmark and every letter on it exactly the same as in the reference image."
+  },
+  {
+   "id": "b05-neon-can500",
+   "source": "fictional GRAWWWW 500 ml black can with neon slime",
+   "strings": [
+    {
+     "s": "GRAWWWW",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A product hero photograph of one tall 500 ml matte-black aluminium can with a narrow neck, standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right rim-lighting the can, glossy slime droplets frozen in the air, tall portrait frame. On the front of the can, in the middle, a bold white sans-serif wordmark on two lines: \"GRA\" on the first line and \"WWWW\" directly below it, the four W's coloured cyan, magenta, yellow and white. The brand name is spelled G, R, A, then four W (seven letters). No other text, no numbers, no claims.",
+   "layout_caption": "A product hero photograph of one tall 500 ml matte-black aluminium can with a narrow neck, standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right, glossy slime droplets frozen in the air, tall portrait frame.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      230,
+      330,
+      740,
+      670
+     ],
+     "caption": "Tall 500 ml matte-black aluminium can with a narrow neck, cyan and magenta rim light."
+    },
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      425,
+      385,
+      480,
+      615
+     ],
+     "caption": "Bold white sans-serif capitals, first line of the brand name."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      480,
+      370,
+      545,
+      630
+     ],
+     "caption": "Bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      700,
+      150,
+      800,
+      850
+     ],
+     "caption": "Puddle of glowing neon slime with glossy droplets."
+    }
+   ],
+   "ie": {
+    "ref": "pack_b05.png",
+    "scene": "standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right, glossy slime droplets frozen in the air, tall portrait frame"
+   },
+   "layout_json": "{\"summary\":{\"caption\":\"A product hero photograph of one tall 500 ml matte-black aluminium can with a narrow neck, standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right, glossy slime droplets frozen in the air, tall portrait frame.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Tall 500 ml matte-black aluminium can with a narrow neck, cyan and magenta rim light.\",\"bbox\":[-484,-175,431,175]},{\"label\":\"text\",\"caption\":\"Bold white sans-serif capitals, first line of the brand name.\",\"text\":\"GRA\",\"bbox\":[-135,-118,-35,118]},{\"label\":\"text\",\"caption\":\"Bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name.\",\"text\":\"WWWW\",\"bbox\":[-36,-134,81,134]},{\"label\":\"object\",\"caption\":\"Puddle of glowing neon slime with glossy droplets.\",\"bbox\":[358,-359,538,359]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": "Create a photo of this exact product, standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right, glossy slime droplets frozen in the air, tall portrait frame. Keep the product, its label, the wordmark and every letter on it exactly the same as in the reference image."
+  },
+  {
+   "id": "b06-endcard-lime-berry",
+   "source": "end card: GRAWWWW stacked lockup, LIME · BERRY, AI footer",
+   "strings": [
+    {
+     "s": "GRAWWWW",
+     "min_count": 1
+    },
+    {
+     "s": "LIME · BERRY",
+     "min_count": 1
+    },
+    {
+     "s": "AI-generated · fictional product and brand",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A clean vertical advertising end card on a flat off-white paper background. In the upper half, a huge stacked wordmark in heavy black sans-serif capitals: \"GRA\" on the first line and \"WWWW\" directly below it, the four W's coloured cyan, magenta, yellow and black. Below the wordmark, a yellow rectangular marker band with the text \"LIME · BERRY\" in bold black sans-serif capitals. At the very bottom, a small footer line in a monospaced typeface: \"AI-generated · fictional product and brand\". The brand name is spelled G, R, A, then four W (seven letters). Flat graphic design, no photo, no other text.",
+   "layout_caption": "A clean vertical advertising end card on a flat off-white paper background: a huge stacked wordmark in the upper half, a yellow marker band below it, and a small footer line at the very bottom. Flat graphic design, no photo.",
+   "layout": [
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      110,
+      200,
+      185,
+      800
+     ],
+     "caption": "Huge heavy black sans-serif capitals, first line of the stacked wordmark."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      185,
+      150,
+      255,
+      850
+     ],
+     "caption": "Huge heavy sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the stacked wordmark."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      290,
+      150,
+      335,
+      850
+     ],
+     "caption": "Yellow rectangular marker band."
+    },
+    {
+     "label": "text",
+     "text": "LIME · BERRY",
+     "bbox": [
+      293,
+      190,
+      332,
+      810
+     ],
+     "caption": "Bold black sans-serif capitals on the yellow band."
+    },
+    {
+     "label": "text",
+     "text": "AI-generated · fictional product and brand",
+     "bbox": [
+      905,
+      180,
+      935,
+      820
+     ],
+     "caption": "Small footer line in a monospaced typeface, black."
+    }
+   ],
+   "ie": null,
+   "layout_json": "{\"summary\":{\"caption\":\"A clean vertical advertising end card on a flat off-white paper background: a huge stacked wordmark in the upper half, a yellow marker band below it, and a small footer line at the very bottom. Flat graphic design, no photo.\"},\"items\":[{\"label\":\"text\",\"caption\":\"Huge heavy black sans-serif capitals, first line of the stacked wordmark.\",\"text\":\"GRA\",\"bbox\":[-699,-308,-564,308]},{\"label\":\"text\",\"caption\":\"Huge heavy sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the stacked wordmark.\",\"text\":\"WWWW\",\"bbox\":[-565,-359,-439,359]},{\"label\":\"object\",\"caption\":\"Yellow rectangular marker band.\",\"bbox\":[-377,-359,-295,359]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on the yellow band.\",\"text\":\"LIME · BERRY\",\"bbox\":[-371,-318,-301,318]},{\"label\":\"text\",\"caption\":\"Small footer line in a monospaced typeface, black.\",\"text\":\"AI-generated · fictional product and brand\",\"bbox\":[725,-328,780,328]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": null
+  },
+  {
+   "id": "b07-endcard-hoodie",
+   "source": "end card: grawwww / washed black hoodie / AI footer",
+   "strings": [
+    {
+     "s": "grawwww",
+     "min_count": 1
+    },
+    {
+     "s": "washed black hoodie",
+     "min_count": 1
+    },
+    {
+     "s": "AI-generated · fictional model and brand",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A vertical end card for a fashion ad on a flat near-black background. In the middle, the lowercase word \"grawwww\" in large bold orange rounded sans-serif letters, spelled g, r, a, w, w, w, w (one g, one r, one a, four w). Directly below it, the words \"washed black hoodie\" in white regular sans-serif. At the very bottom, a small footer line in white monospaced type: \"AI-generated · fictional model and brand\". Flat graphic design, no photo, no other text.",
+   "layout_caption": "A vertical end card for a fashion ad on a flat near-black background: a large orange wordmark in the middle, a white subtitle below it, and a small footer line at the very bottom. Flat graphic design, no photo.",
+   "layout": [
+    {
+     "label": "text",
+     "text": "grawwww",
+     "bbox": [
+      185,
+      150,
+      250,
+      850
+     ],
+     "caption": "Large bold orange lowercase rounded sans-serif letters."
+    },
+    {
+     "label": "text",
+     "text": "washed black hoodie",
+     "bbox": [
+      270,
+      220,
+      300,
+      780
+     ],
+     "caption": "White regular sans-serif."
+    },
+    {
+     "label": "text",
+     "text": "AI-generated · fictional model and brand",
+     "bbox": [
+      905,
+      190,
+      935,
+      810
+     ],
+     "caption": "Small footer line in white monospaced type."
+    }
+   ],
+   "ie": null,
+   "layout_json": "{\"summary\":{\"caption\":\"A vertical end card for a fashion ad on a flat near-black background: a large orange wordmark in the middle, a white subtitle below it, and a small footer line at the very bottom. Flat graphic design, no photo.\"},\"items\":[{\"label\":\"text\",\"caption\":\"Large bold orange lowercase rounded sans-serif letters.\",\"text\":\"grawwww\",\"bbox\":[-565,-359,-448,359]},{\"label\":\"text\",\"caption\":\"White regular sans-serif.\",\"text\":\"washed black hoodie\",\"bbox\":[-413,-287,-358,287]},{\"label\":\"text\",\"caption\":\"Small footer line in white monospaced type.\",\"text\":\"AI-generated · fictional model and brand\",\"bbox\":[725,-318,780,318]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": null
+  },
+  {
+   "id": "b08-duo-cans",
+   "source": "both flavours together: LIME and BERRY cans, same wordmark",
+   "strings": [
+    {
+     "s": "LIME",
+     "min_count": 1
+    },
+    {
+     "s": "BERRY",
+     "min_count": 1
+    },
+    {
+     "s": "GRAWWWW",
+     "min_count": 2
+    }
+   ],
+   "prompt": "A studio product photograph of two standard 330 ml aluminium soda cans standing side by side on a seamless light-grey backdrop, soft shadows, tall portrait frame. The left can has a lime-green label, the right can has a crimson-red label. On both cans, in the upper half of the label, huge bold sans-serif capitals on two lines: \"GRA\" on the first line and \"WWWW\" directly below it (black on the green can, white on the red can, the W's coloured cyan, magenta and yellow). At the bottom of each label, a yellow band: the left band reads \"LIME\" and the right band reads \"BERRY\", in bold black sans-serif capitals. The brand name is spelled G, R, A, then four W (seven letters). No other text.",
+   "layout_caption": "A studio product photograph of two standard 330 ml aluminium soda cans standing side by side on a seamless light-grey backdrop, soft shadows, tall portrait frame. The left can has a lime-green label, the right can has a crimson-red label.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      330,
+      70,
+      700,
+      470
+     ],
+     "caption": "Left can, standard 330 ml aluminium soda can with a lime-green label."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      330,
+      540,
+      700,
+      940
+     ],
+     "caption": "Right can, standard 330 ml aluminium soda can with a crimson-red label."
+    },
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      405,
+      115,
+      455,
+      425
+     ],
+     "caption": "Huge bold black sans-serif capitals, first line of the brand name on the green can."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      455,
+      110,
+      505,
+      430
+     ],
+     "caption": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line on the green can."
+    },
+    {
+     "label": "text",
+     "text": "LIME",
+     "bbox": [
+      585,
+      140,
+      625,
+      400
+     ],
+     "caption": "Bold black sans-serif capitals on a yellow band on the green can."
+    },
+    {
+     "label": "text",
+     "text": "GRA",
+     "bbox": [
+      405,
+      585,
+      455,
+      895
+     ],
+     "caption": "Huge bold white sans-serif capitals, first line of the brand name on the red can."
+    },
+    {
+     "label": "text",
+     "text": "WWWW",
+     "bbox": [
+      455,
+      580,
+      505,
+      900
+     ],
+     "caption": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line on the red can."
+    },
+    {
+     "label": "text",
+     "text": "BERRY",
+     "bbox": [
+      585,
+      600,
+      625,
+      880
+     ],
+     "caption": "Bold black sans-serif capitals on a yellow band on the red can."
+    }
+   ],
+   "ie": null,
+   "layout_json": "{\"summary\":{\"caption\":\"A studio product photograph of two standard 330 ml aluminium soda cans standing side by side on a seamless light-grey backdrop, soft shadows, tall portrait frame. The left can has a lime-green label, the right can has a crimson-red label.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Left can, standard 330 ml aluminium soda can with a lime-green label.\",\"bbox\":[-305,-441,359,-30]},{\"label\":\"object\",\"caption\":\"Right can, standard 330 ml aluminium soda can with a crimson-red label.\",\"bbox\":[-305,40,359,451]},{\"label\":\"text\",\"caption\":\"Huge bold black sans-serif capitals, first line of the brand name on the green can.\",\"text\":\"GRA\",\"bbox\":[-171,-395,-80,-76]},{\"label\":\"text\",\"caption\":\"Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line on the green can.\",\"text\":\"WWWW\",\"bbox\":[-81,-400,9,-71]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on a yellow band on the green can.\",\"text\":\"LIME\",\"bbox\":[152,-369,224,-102]},{\"label\":\"text\",\"caption\":\"Huge bold white sans-serif capitals, first line of the brand name on the red can.\",\"text\":\"GRA\",\"bbox\":[-171,87,-80,405]},{\"label\":\"text\",\"caption\":\"Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line on the red can.\",\"text\":\"WWWW\",\"bbox\":[-81,81,9,410]},{\"label\":\"text\",\"caption\":\"Bold black sans-serif capitals on a yellow band on the red can.\",\"text\":\"BERRY\",\"bbox\":[152,102,224,390]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": null
+  },
+  {
+   "id": "b09-headline-650-72",
+   "source": "typographic headline poster: 650 S TO 72 S",
+   "strings": [
+    {
+     "s": "650 S TO 72 S",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A bold typographic poster on a flat dark charcoal background. The headline is set on three lines in huge heavy white sans-serif capitals: \"650 S\" on the first line, the small word \"TO\" on the second line, and \"72 S\" on the third line, where \"72 S\" is black on a yellow rectangular highlight band. Under the headline, a long thin white horizontal bar. Flat graphic design, no photo, no other text.",
+   "layout_caption": "A bold typographic poster on a flat dark charcoal background: a three-line headline in huge heavy sans-serif capitals, the last line on a yellow highlight band, and a long thin white horizontal bar under it. Flat graphic design, no photo.",
+   "layout": [
+    {
+     "label": "text",
+     "text": "650 S",
+     "bbox": [
+      150,
+      170,
+      300,
+      830
+     ],
+     "caption": "Huge heavy white sans-serif capitals."
+    },
+    {
+     "label": "text",
+     "text": "TO",
+     "bbox": [
+      320,
+      400,
+      390,
+      600
+     ],
+     "caption": "Small white sans-serif capitals."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      420,
+      130,
+      600,
+      870
+     ],
+     "caption": "Yellow rectangular highlight band."
+    },
+    {
+     "label": "text",
+     "text": "72 S",
+     "bbox": [
+      430,
+      190,
+      590,
+      810
+     ],
+     "caption": "Huge heavy black sans-serif capitals on the yellow band."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      650,
+      100,
+      662,
+      900
+     ],
+     "caption": "Long thin white horizontal bar."
+    }
+   ],
+   "ie": null,
+   "layout_json": "{\"summary\":{\"caption\":\"A bold typographic poster on a flat dark charcoal background: a three-line headline in huge heavy sans-serif capitals, the last line on a yellow highlight band, and a long thin white horizontal bar under it. Flat graphic design, no photo.\"},\"items\":[{\"label\":\"text\",\"caption\":\"Huge heavy white sans-serif capitals.\",\"text\":\"650 S\",\"bbox\":[-628,-338,-358,338]},{\"label\":\"text\",\"caption\":\"Small white sans-serif capitals.\",\"text\":\"TO\",\"bbox\":[-323,-103,-197,103]},{\"label\":\"object\",\"caption\":\"Yellow rectangular highlight band.\",\"bbox\":[-144,-379,180,379]},{\"label\":\"text\",\"caption\":\"Huge heavy black sans-serif capitals on the yellow band.\",\"text\":\"72 S\",\"bbox\":[-126,-318,162,318]},{\"label\":\"object\",\"caption\":\"Long thin white horizontal bar.\",\"bbox\":[268,-410,291,410]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": null
+  },
+  {
+   "id": "b10-ai-badge",
+   "source": "name badge / lower third with a fictional presenter name and an AI label",
+   "strings": [
+    {
+     "s": "LARA",
+     "min_count": 1
+    },
+    {
+     "s": "AI-GENERATED PRESENTER",
+     "min_count": 1
+    }
+   ],
+   "prompt": "A flat graphic design on a pale off-white background: a wide rectangular name plate with a thick black border, centred. Inside it, at the left, four small squares in a row coloured cyan, magenta, yellow and black. To the right of the squares, two lines of text: the first line \"LARA\" in heavy black sans-serif capitals, the second line \"AI-GENERATED PRESENTER\" in small black monospaced capitals. No photo, no other text.",
+   "layout_caption": "A flat graphic design on a pale off-white background: a wide rectangular name plate with a thick black border, centred, containing four small coloured squares at the left and two lines of text to their right.",
+   "layout": [
+    {
+     "label": "object",
+     "bbox": [
+      440,
+      80,
+      560,
+      920
+     ],
+     "caption": "Wide rectangular name plate with a thick black border."
+    },
+    {
+     "label": "object",
+     "bbox": [
+      470,
+      110,
+      530,
+      250
+     ],
+     "caption": "Four small squares in a row coloured cyan, magenta, yellow and black."
+    },
+    {
+     "label": "text",
+     "text": "LARA",
+     "bbox": [
+      452,
+      280,
+      505,
+      560
+     ],
+     "caption": "Heavy black sans-serif capitals."
+    },
+    {
+     "label": "text",
+     "text": "AI-GENERATED PRESENTER",
+     "bbox": [
+      512,
+      280,
+      540,
+      890
+     ],
+     "caption": "Small black monospaced capitals."
+    }
+   ],
+   "ie": null,
+   "layout_json": "{\"summary\":{\"caption\":\"A flat graphic design on a pale off-white background: a wide rectangular name plate with a thick black border, centred, containing four small coloured squares at the left and two lines of text to their right.\"},\"items\":[{\"label\":\"object\",\"caption\":\"Wide rectangular name plate with a thick black border.\",\"bbox\":[-108,-431,108,431]},{\"label\":\"object\",\"caption\":\"Four small squares in a row coloured cyan, magenta, yellow and black.\",\"bbox\":[-54,-400,54,-256]},{\"label\":\"text\",\"caption\":\"Heavy black sans-serif capitals.\",\"text\":\"LARA\",\"bbox\":[-87,-226,9,62]},{\"label\":\"text\",\"caption\":\"Small black monospaced capitals.\",\"text\":\"AI-GENERATED PRESENTER\",\"bbox\":[21,-226,72,400]}],\"bbox_coord_space\":\"abs_centralized\",\"bbox_format\":\"yxyx\"}",
+   "ie_prompt": null
+  }
+ ],
+ "note": "Published copy. 'source' and 'ie.ref' were rewritten (internal project names and file paths removed; 'ie.ref' is the file name of the reference pack shot, which is not included). Every field that reaches a model or the scorer (prompt, layout_json, ie_prompt, strings, seeds, canvas) is unchanged."
+}

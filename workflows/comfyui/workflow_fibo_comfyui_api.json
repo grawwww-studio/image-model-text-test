@@ -1,0 +1,87 @@
+{
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "fibo2_dev_bf16.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "2": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_4b_bf16.safetensors",
+   "type": "fibo2",
+   "device": "default"
+  }
+ },
+ "3": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "flux2-vae.safetensors"
+  }
+ },
+ "4": {
+  "class_type": "TextEncodeFibo2",
+  "inputs": {
+   "clip": [
+    "2",
+    0
+   ],
+   "prompt": "{\"short_description\": \"A vertical end card for a fashion ad on a flat near-black background: a large orange wordmark in the middle, a white subtitle below it, and a small footer line at the very bottom. Flat graphic design, no photo.\", \"objects\": [], \"background_setting\": \"A flat near-black background.\", \"lighting\": {\"conditions\": \"flat, none\", \"direction\": \"none\", \"shadows\": \"none\"}, \"aesthetics\": {\"composition\": \"a large wordmark in the middle, a subtitle below it, a small footer at the bottom, tall portrait frame\", \"color_scheme\": \"orange and white on near-black\", \"mood_atmosphere\": \"minimal, confident\"}, \"photographic_characteristics\": {\"depth_of_field\": \"none\", \"focus\": \"flat graphic\", \"camera_angle\": \"straight on\", \"lens_focal_length\": \"none\"}, \"style_medium\": \"graphic design\", \"context\": \"A fashion advertising end card.\", \"artistic_style\": \"clean sans-serif typography\", \"text_render\": [{\"text\": \"grawwww\", \"location\": \"upper center of the frame\", \"size\": \"large\", \"color\": \"orange\", \"font\": \"rounded sans-serif\", \"appearance_details\": \"Large bold orange lowercase rounded sans-serif letters.\"}, {\"text\": \"washed black hoodie\", \"location\": \"upper center of the frame\", \"size\": \"small\", \"color\": \"white\", \"font\": \"sans-serif\", \"appearance_details\": \"White regular sans-serif.\"}, {\"text\": \"AI-generated · fictional model and brand\", \"location\": \"lower center of the frame\", \"size\": \"small\", \"color\": \"white\", \"font\": \"monospaced\", \"appearance_details\": \"Small footer line in white monospaced type.\"}]}",
+   "negative_prompt": "{\"short_description\":\"\",\"objects\":[{\"description\":\"the main subject\",\"texture\":\"smooth, featureless, plastic-like, airbrushed, no fine surface detail\",\"appearance_details\":\"soft blurred edges, simplified shapes, no fine detail\",\"skin_tone_and_texture\":\"waxy airbrushed skin, poreless, plastic smooth\"}],\"background_setting\":\"a plain seamless studio backdrop, perfectly smooth gradient, blurred and featureless, no visible texture\",\"lighting\":{},\"aesthetics\":{\"artifacts\":[\"oversaturated colours\",\"neon colour cast\",\"overexposed highlights\",\"lens flare\",\"slight blur\",\"motion blur\",\"haze\"]},\"photographic_characteristics\":{\"depth_of_field\":\"shallow, heavy bokeh obscuring most of the frame\",\"focus\":\"soft, slightly out of focus, lacking fine texture\"},\"style_medium\":\"\",\"context\":\"\",\"artistic_style\":\"\"}",
+   "width": 1024,
+   "height": 1792,
+   "batch_size": 1
+  }
+ },
+ "5": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "positive": [
+    "4",
+    0
+   ],
+   "negative": [
+    "4",
+    1
+   ],
+   "latent_image": [
+    "4",
+    2
+   ],
+   "seed": 101,
+   "steps": 30,
+   "cfg": 5.0,
+   "sampler_name": "euler",
+   "scheduler": "simple",
+   "denoise": 1.0
+  }
+ },
+ "6": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "5",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  }
+ },
+ "7": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": [
+    "6",
+    0
+   ],
+   "filename_prefix": "t004c/workflow"
+  }
+ }
+}

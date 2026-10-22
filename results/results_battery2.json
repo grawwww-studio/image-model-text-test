@@ -1,0 +1,1412 @@
+{
+ "note": "AI reading (an AI model, not a person). 1-5, 5 best. Subjective.",
+ "arms": {
+  "krea-dense": {
+   "images_read": 16,
+   "mean": {
+    "realism": 4.19,
+    "anatomy": 4.19,
+    "composition": 4.38,
+    "slop_free": 3.81
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p2-hands-can": {
+     "realism": 4.5,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 3.5
+    },
+    "p3-elderly-man": {
+     "realism": 4,
+     "anatomy": 5,
+     "composition": 5,
+     "slop_free": 4
+    },
+    "p4-cafe-four": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p5-hiker-ridge": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 4
+    },
+    "p6-night-rain": {
+     "realism": 4,
+     "anatomy": 3.5,
+     "composition": 4.5,
+     "slop_free": 3
+    },
+    "p7-adherence": {
+     "realism": 5,
+     "anatomy": 5,
+     "composition": 4,
+     "slop_free": 5,
+     "adherence": 5
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 4
+    },
+    "p9-lifestyle-feet": {
+     "realism": 5,
+     "anatomy": 3.5,
+     "composition": 3,
+     "slop_free": 5
+    }
+   },
+   "overall": 4.14,
+   "overall_extra": {
+    "p9-lifestyle-feet": 4.12
+   },
+   "human_realism_mean": 4.19,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 12.92,
+    "cold_first_s": [
+     22.58
+    ],
+    "all_s": [
+     22.58,
+     12.92
+    ],
+    "total_s": 35.5,
+    "peak_mib_max": 21372
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 12.92,
+     "cold_first_s": [
+      22.58
+     ],
+     "all_s": [
+      22.58,
+      12.92
+     ],
+     "total_s": 35.5,
+     "peak_mib_max": 21372
+    }
+   },
+   "timing": {
+    "images": 16,
+    "warm_median_s": 12.82,
+    "warm_min_s": 12.51,
+    "warm_max_s": 12.98,
+    "cold_first_s": [
+     21.96,
+     22.29
+    ],
+    "total_s": 223.5,
+    "peak_mib_max": 21660,
+    "peak_gib_max": 21.15,
+    "peak_mib_median": 21372
+   }
+  },
+  "moss-prompt": {
+   "images_read": 16,
+   "mean": {
+    "realism": 4,
+    "anatomy": 3.94,
+    "composition": 4,
+    "slop_free": 3.31
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 3,
+     "composition": 3,
+     "slop_free": 3.5
+    },
+    "p2-hands-can": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p3-elderly-man": {
+     "realism": 4.5,
+     "anatomy": 4.5,
+     "composition": 3.5,
+     "slop_free": 3.5
+    },
+    "p4-cafe-four": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4.5,
+     "slop_free": 3
+    },
+    "p5-hiker-ridge": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p6-night-rain": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4.5,
+     "slop_free": 3
+    },
+    "p7-adherence": {
+     "realism": 3.5,
+     "anatomy": 4,
+     "composition": 4.5,
+     "slop_free": 3.5,
+     "adherence": 5
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p9-lifestyle-feet": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    }
+   },
+   "overall": 3.81,
+   "overall_extra": {
+    "p9-lifestyle-feet": 3.75
+   },
+   "human_realism_mean": 4.0,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 27.98,
+    "cold_first_s": [
+     37.03
+    ],
+    "all_s": [
+     37.03,
+     27.98
+    ],
+    "total_s": 65.0,
+    "peak_mib_max": 19036
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 27.98,
+     "cold_first_s": [
+      37.03
+     ],
+     "all_s": [
+      37.03,
+      27.98
+     ],
+     "total_s": 65.0,
+     "peak_mib_max": 19036
+    }
+   },
+   "timing": {
+    "images": 16,
+    "warm_median_s": 27.95,
+    "warm_min_s": 27.6,
+    "warm_max_s": 28.09,
+    "cold_first_s": [
+     36.79,
+     36.83
+    ],
+    "total_s": 464.9,
+    "peak_mib_max": 19036,
+    "peak_gib_max": 18.59,
+    "peak_mib_median": 18588
+   }
+  },
+  "qwen21": {
+   "images_read": 16,
+   "mean": {
+    "realism": 4,
+    "anatomy": 3.94,
+    "composition": 3.75,
+    "slop_free": 3.69
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 4
+    },
+    "p2-hands-can": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 3.5
+    },
+    "p3-elderly-man": {
+     "realism": 4,
+     "anatomy": 4.5,
+     "composition": 4,
+     "slop_free": 3.5
+    },
+    "p4-cafe-four": {
+     "realism": 4.5,
+     "anatomy": 3.5,
+     "composition": 3.5,
+     "slop_free": 4.5
+    },
+    "p5-hiker-ridge": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p6-night-rain": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p7-adherence": {
+     "realism": 3.5,
+     "anatomy": 3.5,
+     "composition": 3.5,
+     "slop_free": 4,
+     "adherence": 4
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p9-lifestyle-feet": {
+     "realism": 4.5,
+     "anatomy": 4.5,
+     "composition": 4,
+     "slop_free": 4
+    }
+   },
+   "overall": 3.84,
+   "overall_extra": {
+    "p9-lifestyle-feet": 4.25
+   },
+   "human_realism_mean": 4.06,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 18.7,
+    "cold_first_s": [
+     27.8
+    ],
+    "all_s": [
+     27.8,
+     18.7
+    ],
+    "total_s": 46.5,
+    "peak_mib_max": 19164
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 18.7,
+     "cold_first_s": [
+      27.8
+     ],
+     "all_s": [
+      27.8,
+      18.7
+     ],
+     "total_s": 46.5,
+     "peak_mib_max": 19164
+    }
+   },
+   "timing": {
+    "images": 16,
+    "warm_median_s": 18.72,
+    "warm_min_s": 18.48,
+    "warm_max_s": 18.82,
+    "cold_first_s": [
+     27.57,
+     27.72
+    ],
+    "total_s": 317.1,
+    "peak_mib_max": 19164,
+    "peak_gib_max": 18.71,
+    "peak_mib_median": 18140
+   }
+  },
+  "fibo": {
+   "images_read": 16,
+   "mean": {
+    "realism": 4.25,
+    "anatomy": 4.06,
+    "composition": 3.75,
+    "slop_free": 4.06
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p2-hands-can": {
+     "realism": 4,
+     "anatomy": 3.5,
+     "composition": 3,
+     "slop_free": 4
+    },
+    "p3-elderly-man": {
+     "realism": 5,
+     "anatomy": 5,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p4-cafe-four": {
+     "realism": 4.5,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 4
+    },
+    "p5-hiker-ridge": {
+     "realism": 5,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 5
+    },
+    "p6-night-rain": {
+     "realism": 5,
+     "anatomy": 4,
+     "composition": 3,
+     "slop_free": 4
+    },
+    "p7-adherence": {
+     "realism": 2.5,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 3.5,
+     "adherence": 4.5
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p9-lifestyle-feet": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    }
+   },
+   "overall": 4.03,
+   "overall_extra": {
+    "p9-lifestyle-feet": 4
+   },
+   "human_realism_mean": 4.25,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 81.74,
+    "cold_first_s": [
+     82.15
+    ],
+    "all_s": [
+     82.15,
+     81.74
+    ],
+    "total_s": 163.9,
+    "peak_mib_max": 23049
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 81.74,
+     "cold_first_s": [
+      82.15
+     ],
+     "all_s": [
+      82.15,
+      81.74
+     ],
+     "total_s": 163.9,
+     "peak_mib_max": 23049
+    }
+   },
+   "timing": {
+    "images": 16,
+    "warm_median_s": 81.66,
+    "warm_min_s": 81.63,
+    "warm_max_s": 81.75,
+    "cold_first_s": [
+     81.88,
+     81.76
+    ],
+    "total_s": 1307.0,
+    "peak_mib_max": 23877,
+    "peak_gib_max": 23.32,
+    "peak_mib_median": 22997
+   }
+  },
+  "qwena": {
+   "images_read": 8,
+   "mean": {
+    "realism": 3.88,
+    "anatomy": 4,
+    "composition": 4.12,
+    "slop_free": 3.25
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 3,
+     "slop_free": 3
+    },
+    "p2-hands-can": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p3-elderly-man": {
+     "realism": 5,
+     "anatomy": 5,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p4-cafe-four": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 4
+    },
+    "p5-hiker-ridge": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 3
+    },
+    "p6-night-rain": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p7-adherence": {
+     "realism": 2,
+     "anatomy": 3,
+     "composition": 3,
+     "slop_free": 3,
+     "adherence": 4
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 5,
+     "slop_free": 3
+    },
+    "p9-lifestyle-feet": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3.5
+    }
+   },
+   "overall": 3.81,
+   "overall_extra": {
+    "p9-lifestyle-feet": 3.88
+   },
+   "human_realism_mean": 4.25,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 114.3,
+    "cold_first_s": [
+     128.76
+    ],
+    "all_s": [
+     128.76,
+     114.3
+    ],
+    "total_s": 243.1,
+    "peak_mib_max": 23772
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 114.3,
+     "cold_first_s": [
+      128.76
+     ],
+     "all_s": [
+      128.76,
+      114.3
+     ],
+     "total_s": 243.1,
+     "peak_mib_max": 23772
+    }
+   },
+   "timing": {
+    "images": 8,
+    "warm_median_s": 118.94,
+    "warm_min_s": 117.76,
+    "warm_max_s": 119.1,
+    "cold_first_s": [
+     127.15
+    ],
+    "total_s": 958.8,
+    "peak_mib_max": 23740,
+    "peak_gib_max": 23.18,
+    "peak_mib_median": 23692
+   }
+  },
+  "klein": {
+   "images_read": 16,
+   "mean": {
+    "realism": 4,
+    "anatomy": 4,
+    "composition": 3.75,
+    "slop_free": 3.44
+   },
+   "per_prompt": {
+    "p1-presenter": {
+     "realism": 4,
+     "anatomy": 3.5,
+     "composition": 3.5,
+     "slop_free": 3
+    },
+    "p2-hands-can": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 4
+    },
+    "p3-elderly-man": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 3.5,
+     "slop_free": 3
+    },
+    "p4-cafe-four": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 3,
+     "slop_free": 3
+    },
+    "p5-hiker-ridge": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    },
+    "p6-night-rain": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3.5
+    },
+    "p7-adherence": {
+     "realism": 4,
+     "anatomy": 4.5,
+     "composition": 3.5,
+     "slop_free": 4,
+     "adherence": 4
+    },
+    "p8-anime-bookshop": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4.5,
+     "slop_free": 4
+    },
+    "p9-lifestyle-feet": {
+     "realism": 4,
+     "anatomy": 4,
+     "composition": 4,
+     "slop_free": 3
+    }
+   },
+   "overall": 3.8,
+   "overall_extra": {
+    "p9-lifestyle-feet": 3.75
+   },
+   "human_realism_mean": 3.94,
+   "timing_extra": {
+    "prompts": [
+     "p9-lifestyle-feet"
+    ],
+    "images": 2,
+    "warm_median_s": 10.47,
+    "cold_first_s": [
+     10.93
+    ],
+    "all_s": [
+     10.93,
+     10.47
+    ],
+    "total_s": 21.4,
+    "peak_mib_max": 22328
+   },
+   "timing_by_extra": {
+    "p9-lifestyle-feet": {
+     "images": 2,
+     "warm_median_s": 10.47,
+     "cold_first_s": [
+      10.93
+     ],
+     "all_s": [
+      10.93,
+      10.47
+     ],
+     "total_s": 21.4,
+     "peak_mib_max": 22328
+    }
+   },
+   "timing": {
+    "images": 16,
+    "warm_median_s": 10.65,
+    "warm_min_s": 10.43,
+    "warm_max_s": 11.28,
+    "cold_first_s": [
+     11.26
+    ],
+    "total_s": 172.2,
+    "peak_mib_max": 24024,
+    "peak_gib_max": 23.46,
+    "peak_mib_median": 24024
+   }
+  }
+ },
+ "reading": {
+  "p1-presenter_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "shaggy fringe bob, natural skin, mid-sentence mouth, raised hand with 5 fingers but cut by the left frame edge"
+  },
+  "p1-presenter_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "wavy bob, freckles and pores, mid-sentence mouth, open raised hand with 5 long fingers; overshirt over hoodie, cyan earrings, magenta cord: closest to the prompt"
+  },
+  "p1-presenter_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "bob, heavy red cheek blush (more than 'light redness'), hand turned sideways with an odd perspective, small yellow bear pin"
+  },
+  "p1-presenter_fibo_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "photo-like, hand across the chest with long parted fingers (5 visible), cyan earrings, fringe bob"
+  },
+  "p1-presenter_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "very clean, symmetrical face, strong blush, retouched look; framed chest-up not waist-up; hoodie without overshirt; hand across chest correct"
+  },
+  "p2-hands-can_fibo_101": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "can small in frame, upper hand fine, lower hand reaching from below looks spidery and not cupping the base; GRA/WWWW/LIME · BERRY readable"
+  },
+  "p2-hands-can_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "grip right (4 fingers wrapped, thumb in front, other hand cupping, ring); label GRA WWWW with the 4th W cut by the edge, a stray letter at the left of the band"
+  },
+  "p2-hands-can_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "four fingers wrapped plus a hand cupping with ring, natural nails; glossy HDR can with droplets"
+  },
+  "p2-hands-can_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "pull-tab can, four fingers plus thumb, second hand with silver ring below; GRA WWWW (4 colours) and LIME · BERRY exact"
+  },
+  "p2-hands-can_krea-dense_101": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "aged hands with real skin texture and creases, grip correct, rings, crisp label GRA/WWWW/LIME · BERRY; sweater background"
+  },
+  "p3-elderly-man_fibo_101": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "deep wrinkles, age spots, blue eyes, white side hair, cardigan; kitchen behind is fairly sharp (not very blurred)"
+  },
+  "p3-elderly-man_moss-prompt_101": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "very detailed wrinkles, broken capillaries on the nose, flyaway white hair; a broad smile instead of a faint half-smile; wide-angle look"
+  },
+  "p3-elderly-man_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 5,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "soft faded film look, kind half-smile, window light from the left with a curtain, dim wooden background out of focus; skin a little soft"
+  },
+  "p3-elderly-man_qwena_101": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "strong wrinkles and age spots, scratch on the nose (not asked for), blue eyes, white stubble, window blur behind"
+  },
+  "p3-elderly-man_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "dense, etched-looking wrinkles (over-sharpened), grey eyes, faint half-smile, dim kitchen; slightly filtered feel"
+  },
+  "p4-cafe-four_fibo_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "two standing, two seated, not really around the table; faces small but natural, laughing and amused; props on the table"
+  },
+  "p4-cafe-four_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "four around the table with cups, croissant, phone, sunglasses; expressions differ; golden HDR look; the left woman and the right man are cut by the frame"
+  },
+  "p4-cafe-four_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "four faces close together, big laugh, raised open hand; saturated sunlit look; props present"
+  },
+  "p4-cafe-four_qwen21_101": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 5,
+   "note": "closest to the prompt: head thrown back laughing, raised eyebrow, smiling woman, open-hand gesture; documentary, natural colour, real skin"
+  },
+  "p4-cafe-four_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "four friends tight around the table, laugh, smile down at the coffee, open-hand gesture, all props; clean and slightly smooth faces"
+  },
+  "p5-hiker-ridge_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "small hiker from behind on a rocky ridge, long shadow, mist cloud in the right valley, sun at top centre, lichen detail"
+  },
+  "p5-hiker-ridge_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "hiker seen from the side with pole, pink clouds, layered valleys; saturated HDR feel"
+  },
+  "p5-hiker-ridge_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "hiker on a small rock outcrop rather than a narrow ridge, soft layered mist, low contrast"
+  },
+  "p5-hiker-ridge_fibo_101": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 5,
+   "note": "tiny hiker at the end of a long detailed ridge, lichen and grass in front, layered mist, natural light and colour; the most photographic"
+  },
+  "p5-hiker-ridge_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 3,
+   "note": "red jacket from behind with pole, sunburst and pink cloud, very cinematic but too perfect (HDR)"
+  },
+  "p6-night-rain_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "cyclist with hood, lamp spray, steam, strong magenta/cyan reflections; generic cyberpunk look"
+  },
+  "p6-night-rain_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 3,
+   "note": "wide street, cyclist right to left with lamp cone, umbrellas; neon text that reads COOP (the prompt asked for no legible text)"
+  },
+  "p6-night-rain_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "cyclist with splash, steam grate, bearded face visible, lamp posts; HDR cinematic"
+  },
+  "p6-night-rain_fibo_101": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "most natural wet asphalt and light; the cyclist is small and far, large empty crosswalk"
+  },
+  "p6-night-rain_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 3,
+   "note": "rain streaks, steam, umbrellas, cyclist with lamp; neon signs full of pseudo-CJK glyphs (fake text); wheels slightly ghostly"
+  },
+  "p7-adherence_qwen21_101": {
+   "realism": 3,
+   "anatomy": 3,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "3 red cubes stacked left (top cube blobby), pyramid centre-back, 2 blue spheres right, white table, soft light; top light unclear",
+   "adherence": 4
+  },
+  "p7-adherence_fibo_101": {
+   "realism": 3,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "clean CG: tower of 3 cubes left, pyramid middle, 2 spheres right, white table, soft top shadows; lots of empty space",
+   "adherence": 5
+  },
+  "p7-adherence_krea-dense_101": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 5,
+   "note": "wooden toy look, tower of 3 cubes left, pyramid middle, 2 blue spheres (stacked) right, white table; very natural",
+   "adherence": 5
+  },
+  "p7-adherence_qwena_101": {
+   "realism": 2,
+   "anatomy": 3,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "cheap-looking CG, warped cubes, pyramid overlapping the cubes, 2 spheres stacked right, white; top light unclear",
+   "adherence": 4
+  },
+  "p7-adherence_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "tower of 3 cubes left, hexagonal green pyramid middle, 2 spheres stacked right, white round table, a lamp above giving top light",
+   "adherence": 5
+  },
+  "p8-anime-bookshop_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "polished generic anime: glasses, chestnut bob, book in both hands, cat, mug on books, rain window"
+  },
+  "p8-anime-bookshop_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 3,
+   "note": "orange hoodie, steaming mug, cat in the shelf, lamp, hundreds of book spines, dust motes; polished"
+  },
+  "p8-anime-bookshop_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "sweater and skirt, book in both hands, cat cropped at the right edge, mug on a stack"
+  },
+  "p8-anime-bookshop_fibo_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "hand-painted ink-and-wash character, cat on the shelf, mug on books; extra portraits of anime girls on the walls; more characterful"
+  },
+  "p8-anime-bookshop_krea-dense_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "gouache-like painterly style, simple character, thick open book, cat, mug, dust motes; distinct from the others"
+  },
+  "p1-presenter_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 2,
+   "slop_free": 4,
+   "note": "framed chest-up with the face very large (not waist-up), heavy blush, sideways hand cut by the frame"
+  },
+  "p1-presenter_fibo_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "wavy bob, half-smile, hand on chest with 5 fingers, waist-up, overshirt over hoodie"
+  },
+  "p1-presenter_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "fringe bob, mid-sentence mouth, hand raised with 5 fingers slightly stiff, other hand hidden in jacket"
+  },
+  "p1-presenter_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "film-grain look, open mouth with teeth mid-sentence, raised open hand with 5 fingers, waist-up, skin a little shiny"
+  },
+  "p2-hands-can_fibo_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "slim can, two hands, ring, GRA/WWWW in 4 colours and LIME · BERRY readable; can is slimmer than asked"
+  },
+  "p2-hands-can_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "old hands with ring, grip right, but the label has coloured circles behind the black W's: garbled WWWW"
+  },
+  "p2-hands-can_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "four fingers wrapped plus cupping hand with ring; the label is cropped by the can edge (GRA cut, W row cut)"
+  },
+  "p2-hands-can_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "grip right (4 fingers + thumb), second hand with ring very large in the foreground; label GRA WWW (3 W) and LIME · BERRY"
+  },
+  "p3-elderly-man_qwen21_102": {
+   "realism": 4,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "heavy wrinkles, grey eyes, serious, dark kitchen; muted, slightly flat"
+  },
+  "p3-elderly-man_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 5,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "soft film look, kind half-smile, white eyebrows, window light from the left, wall edge visible; slightly soft skin"
+  },
+  "p3-elderly-man_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "broad smile, red scratch marks on the cheek (artifact), over-sharpened HDR skin"
+  },
+  "p3-elderly-man_fibo_102": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "blue eyes, deep wrinkles, age spots, torn shirt collar; the kitchen behind is quite sharp"
+  },
+  "p4-cafe-four_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 3,
+   "note": "four faces tight around the table, laughing, props present; golden HDR look"
+  },
+  "p4-cafe-four_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "four around the table, props, different expressions; HDR golden light"
+  },
+  "p4-cafe-four_qwen21_102": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "candid, but one man is seen from behind and faces are small: not four faces in focus; natural colour"
+  },
+  "p4-cafe-four_fibo_102": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "two standing, two seated, laughing, raised eyebrow, open hands, props; natural documentary look"
+  },
+  "p5-hiker-ridge_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "red-jacket hiker from behind with pole, sunburst, mist cloud, rocky ridge with lichen"
+  },
+  "p5-hiker-ridge_fibo_102": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 5,
+   "note": "tiny hiker on a long detailed ridge, layered mist valleys, natural colours"
+  },
+  "p5-hiker-ridge_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "hiker from behind with red pack, lens-flare sun, pink clouds; saturated, but a trail rather than a ridge"
+  },
+  "p5-hiker-ridge_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "hiker with orange pack on a rock outcrop, soft hazy light; flat contrast"
+  },
+  "p6-night-rain_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "masked cyclist, steam, pseudo-CJK neon text, ghostly front wheel"
+  },
+  "p6-night-rain_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "cyclist with lamp and spray, saturated neon, partly legible fragments (UCA, VLD)"
+  },
+  "p6-night-rain_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "large cyclist with lamp cone and splash, rain, face hidden; one neon sign with fake glyphs"
+  },
+  "p6-night-rain_fibo_102": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "natural wet street, small cyclist, neon with fake script; the most photographic, composition empty at the front"
+  },
+  "p7-adherence_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "3 red cubes stacked left, dark green pyramid, 2 blue spheres right, light grey table; top light unclear",
+   "adherence": 4
+  },
+  "p7-adherence_moss-prompt_102": {
+   "realism": 3,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "huge 3-cube tower left, slim glassy pyramid, 2 stacked spheres right, a spot above giving top light; reflective table",
+   "adherence": 5
+  },
+  "p7-adherence_fibo_102": {
+   "realism": 2,
+   "anatomy": 3,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "3 cubes tower left, pyramid middle, but THREE blue spheres on the right (wrong count); cheap CG",
+   "adherence": 4
+  },
+  "p7-adherence_krea-dense_102": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 5,
+   "note": "wooden toy look, tower of 3 cubes left, pyramid middle, 2 stacked blue spheres right, white table",
+   "adherence": 5
+  },
+  "p8-anime-bookshop_fibo_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "painterly anime, girl with glasses on a step ladder reading, cat, mug, extra wall portraits"
+  },
+  "p8-anime-bookshop_krea-dense_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "gouache-like, girl in white shirt, cat on shelf, mug on a stack, lamp, rain window"
+  },
+  "p8-anime-bookshop_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "polished anime, book in both hands, cat, mug, bare knees; clean"
+  },
+  "p8-anime-bookshop_qwen21_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "cinematic anime, detailed book and cat, perspective strong, mug, stacks of books"
+  },
+  "p9-lifestyle-feet_qwen21_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "natural face with pores, hand at hair, other hand on the planks with 5 fingers; both feet visible, toes natural but crowded; low camera makes the legs long, toes near the bottom edge"
+  },
+  "p9-lifestyle-feet_qwena_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "warm HDR Instagram look, broad smile; feet pressed together with slightly stubby toes, footprints in the sand; small red spot at the ear"
+  },
+  "p9-lifestyle-feet_fibo_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "looks off-camera (prompt: toward the camera), slim legs, feet small in frame but toes natural, seated on the planks as asked; clean model look"
+  },
+  "p9-lifestyle-feet_moss-prompt_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "phone-HDR look with rosy cheeks, long fingers on the boards (5), toes natural, nails fine; floor reads as part sand part planks"
+  },
+  "p9-lifestyle-feet_krea-dense_101": {
+   "realism": 5,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 5,
+   "note": "film look, most natural skin and freckles; sits on the boardwalk edge with the feet in the sand, feet crossed so toes are less visible; deviates from 'feet on the planks'"
+  },
+  "p9-lifestyle-feet_qwena_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "big natural smile with pores, hand at hair, hand on the planks with thin 5 fingers; feet together, toes natural; boardwalk leads to the sea"
+  },
+  "p9-lifestyle-feet_moss-prompt_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "freckled, rosy golden HDR look, painted nails, toes natural; feet pressed together"
+  },
+  "p9-lifestyle-feet_fibo_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "looks off-camera again, very long thin legs, small feet with natural toes; planks and railing very photographic, clean model look"
+  },
+  "p9-lifestyle-feet_krea-dense_102": {
+   "realism": 5,
+   "anatomy": 3,
+   "composition": 2,
+   "slop_free": 5,
+   "note": "film look, natural face, but she sits on the sand and her feet are cut by the bottom edge: the brief's feet are NOT visible (toes not judgeable, so anatomy 3 = unverified)"
+  },
+  "p9-lifestyle-feet_qwen21_102": {
+   "realism": 5,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "phone-snapshot look in natural light, face and hands natural, both feet fully in frame with 5 toes each and natural nails: the best feet of the set"
+  },
+  "p1-presenter_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "chest-up crop, heavy red cheek blush, slightly wide-eyed, raised hand with 5 fingers"
+  },
+  "p1-presenter_klein_101": {
+   "realism": 4,
+   "anatomy": 3,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "smile with red blush, raised hand with 5 long spidery fingers and blotchy knuckles"
+  },
+  "p2-hands-can_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "two hands, 4 fingers wrapped plus thumb, other hand cupping; label GRA / WWWW / LIME - BERRY readable, fingers cover part of the label edge"
+  },
+  "p2-hands-can_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "grip right, ring on the lower hand; label GRA WWWW LIME - BERRY exact"
+  },
+  "p3-elderly-man_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "very heavy skin texture and lens-close look, blotchy red nose, over-processed"
+  },
+  "p3-elderly-man_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "heavy texture, red nose spots, a glossy patch on the forehead hair"
+  },
+  "p4-cafe-four_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "four people but the right man is in profile at the frame edge; hands gesturing, croissant, phone, sunglasses"
+  },
+  "p4-cafe-four_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 3,
+   "note": "only three faces readable: the right man turns away (fails 'all four faces sharp')"
+  },
+  "p5-hiker-ridge_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "saturated HDR sunset, hiker larger in frame, three-quarter back view"
+  },
+  "p5-hiker-ridge_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "hiker from behind with poles, saturated sunset, no long shadow"
+  },
+  "p6-night-rain_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "rider crosses with steam and spray; neon signs carry pseudo-script glyphs"
+  },
+  "p6-night-rain_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "rider with a bright lamp cone and spray, abstract signs, no legible text, anamorphic bokeh"
+  },
+  "p7-adherence_klein_102": {
+   "realism": 4,
+   "anatomy": 5,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "3 red cubes left, green pyramid middle, 2 blue spheres right, white table",
+   "adherence": 5
+  },
+  "p7-adherence_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 3,
+   "slop_free": 4,
+   "note": "4 red cubes in the tower and 3 blue spheres: both counts wrong; pyramid overlapped by the spheres",
+   "adherence": 3
+  },
+  "p8-anime-bookshop_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 5,
+   "slop_free": 4,
+   "note": "rich detail, closed eyes, hands correct, steaming mug and cat"
+  },
+  "p8-anime-bookshop_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 4,
+   "note": "crossed legs on the stool slightly awkward, hands fine, cat on a book stack"
+  },
+  "p9-lifestyle-feet_klein_102": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "feet toward the camera, five toes each, golden HDR, a little staged"
+  },
+  "p9-lifestyle-feet_klein_101": {
+   "realism": 4,
+   "anatomy": 4,
+   "composition": 4,
+   "slop_free": 3,
+   "note": "feet toward the camera, five toes each, golden HDR"
+  }
+ }
+}

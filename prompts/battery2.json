@@ -1,0 +1,489 @@
+{
+ "battery": "Battery 2, beyond labels (2026-10-20)",
+ "written": "2026-10-20, before any battery-2 image was generated",
+ "formats": "FORMATS DIFFER, INTENT IS THE SAME: Krea 2 Turbo, MOSS-Image SFT, Qwen-Image-2.1, Qwen-Image-2512 and FLUX 3 Image Klein get the same dense natural-language prompt ('prompt'); FIBO 2.0-dev gets its native structured JSON caption ('fibo_caption') written to say the same thing.",
+ "seeds": [
+  101,
+  102
+ ],
+ "seed_policy": "seed 101 for every model first, then 102; seed 102 is dropped first if time runs short",
+ "settings": {
+  "krea-dense": "krea2_turbo_fp8 + qwen3vl_4b encoder + qwen_image_vae, 9 steps er_sde/beta cfg 1, no LoRA (same graph as the label run)",
+  "moss-prompt": "moss_image_sft_int8_convrot, vendor settings 50 steps cfg 3 euler/simple, SLG layer 22, vendor negative, prompt upsampler off (same as the label run)",
+  "qwen21": "Qwen-Image-2.1 int8, 40 steps euler/simple cfg 1, prompt enhancer off (same as the label run)",
+  "fibo": "FIBO 2.0-dev bf16 via diffusers, 30 steps guidance 5.0 (the label run's setting after its 130 s rule), the card's t2i negative caption",
+  "qwena": "Qwen-Image-2512 fp8, 50 steps cfg 4 euler/simple shift 3.1, template negative; only if its speed gate passes (warm <= 120 s per 1024x1792 image)",
+  "klein": "flux3-image-klein bf16 (distilled), Qwen3-VL-4B-Instruct encoder, flux2-vae, 16 steps euler/simple cfg 1, no prompt upsampler (same graph as the label run)"
+ },
+ "scoring": "agent visual reading only (an AI model looking at every image; not a person): realism, anatomy (hands, faces), composition/aesthetic, slop look (1-5 each; 5 = best, slop 5 = no slop), adherence facts for p7. Subjective; a person's blind ranking came after (results/blind_vote.json).",
+ "prompts": [
+  {
+   "id": "p1-presenter",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "human realism, hands, studio light",
+   "intent": "Waist-up studio portrait of a fictional young woman presenter, natural skin, one open hand raised with five fingers visible, soft key light.",
+   "look_source": "look description of a fictional presenter written by us; no LoRA and no private model is used (description only)",
+   "prompt": "A photograph of a young woman presenter, a fictional synthetic person, shown from the waist up and facing the camera, standing in a bright studio against a plain seamless light grey-white backdrop with no objects. She has a slightly tousled, textured dark bob with a few flyaway hairs, fair skin with sharp natural texture, visible pores and faint freckles, light redness on the cheeks, no makeup look and no retouching, and a slightly asymmetric relaxed half-smile as if she were mid-sentence, looking straight into the lens. She wears a charcoal hoodie under a black overshirt, small cyan enamel earrings, a tiny yellow enamel pin on the collar and a thin magenta cord at the neck, no logos and no text. Her right hand is raised in front of her chest in an open, explaining gesture with all five fingers clearly visible and correctly formed. Soft softbox key light from the front-left with natural falloff and a gentle shadow on the right side of her face, shot on a 50 mm lens at f/2.8 with subtle film grain, muted natural colours, candid documentary feel, not glossy, tall portrait frame.",
+   "fibo_caption": {
+    "short_description": "A waist-up studio photograph of a fictional young woman presenter with a tousled dark bob, natural unretouched skin, a relaxed half-smile, one open hand raised in an explaining gesture, soft softbox light, light grey-white seamless backdrop, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A young woman presenter with a slightly tousled, textured dark bob and a few flyaway hairs, looking straight into the lens with a slightly asymmetric relaxed half-smile as if mid-sentence.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame",
+      "skin_tone_and_texture": "fair skin with sharp natural texture, visible pores, faint freckles and light redness on the cheeks, no makeup look, no retouching",
+      "clothing": "charcoal hoodie under a black overshirt, small cyan enamel earrings, a tiny yellow enamel pin on the collar, a thin magenta cord at the neck, no logos, no text",
+      "pose": "facing the camera, waist-up, her right hand raised in front of her chest in an open explaining gesture"
+     },
+     {
+      "description": "Her right hand, open, all five fingers clearly visible and correctly formed.",
+      "location": "middle center of the frame",
+      "relative_size": "medium within frame"
+     }
+    ],
+    "background_setting": "A plain seamless light grey-white studio backdrop with no objects.",
+    "lighting": {
+     "conditions": "soft softbox key light",
+     "direction": "from the front-left",
+     "shadows": "gentle natural falloff, soft shadow on the right side of her face"
+    },
+    "aesthetics": {
+     "composition": "centered waist-up portrait, comfortable headroom, tall portrait frame",
+     "color_scheme": "muted natural colours, charcoal, black, cyan and yellow accents",
+     "mood_atmosphere": "candid, documentary, calm"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on her face and raised hand",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "photograph",
+    "context": "A candid documentary-style studio portrait of a presenter, shot on 35 mm film with subtle grain, not glossy.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "p2-hands-can",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "hands and fingers (the classic failure), product with our own brand",
+   "intent": "Close-up of two hands holding the grawwww LIME·BERRY can, every finger visible and correct.",
+   "prompt": "An extreme close-up product photograph of two hands holding a slim aluminium soda can at chest height. The can has a lime-green wrap-around label printed with huge bold black sans-serif capitals GRA on the first line and WWWW below it in cyan, magenta, yellow and black, and a yellow band near the bottom reading LIME · BERRY. Every finger is visible and anatomically correct: the right hand grips the can with four fingers wrapped around it and the thumb in front, the left hand cups the base of the can from below, natural knuckles, fine skin creases, short clean fingernails, a thin silver ring on one finger, tiny condensation droplets running down the can. Shallow depth of field, a softly blurred sunlit kitchen in the background, warm window light from the left, 85 mm macro look, tall portrait frame.",
+   "fibo_caption": {
+    "short_description": "An extreme close-up product photograph of two hands holding a slim aluminium soda can with a lime-green label at chest height, every finger visible and correct, sunlit kitchen background, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A slim aluminium soda can with a lime-green wrap-around label, a yellow band near the bottom, tiny condensation droplets.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame"
+     },
+     {
+      "description": "A right hand gripping the can, four fingers wrapped around it, the thumb in front, natural knuckles and skin creases, short clean fingernails, a thin silver ring on one finger.",
+      "location": "middle right of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin with fine creases and knuckle texture"
+     },
+     {
+      "description": "A left hand cupping the base of the can from below, all fingers visible.",
+      "location": "lower center of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin with fine creases and knuckle texture"
+     }
+    ],
+    "background_setting": "A softly blurred, sunlit home kitchen.",
+    "lighting": {
+     "conditions": "warm window light",
+     "direction": "from the left",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the can centred, held by two hands, tall portrait frame",
+     "color_scheme": "lime green, yellow, cyan, magenta, black, warm skin tones",
+     "mood_atmosphere": "fresh, tactile"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on the fingers and the can label",
+     "camera_angle": "eye level",
+     "lens_focal_length": "85mm"
+    },
+    "style_medium": "photograph",
+    "context": "A macro-style product photograph with hands.",
+    "artistic_style": "realistic",
+    "text_render": [
+     {
+      "text": "GRA",
+      "location": "middle center of the frame",
+      "size": "large",
+      "color": "black",
+      "font": "bold sans-serif",
+      "appearance_details": "Huge bold black capitals, first line of the brand name."
+     },
+     {
+      "text": "WWWW",
+      "location": "middle center of the frame",
+      "size": "large",
+      "color": "cyan, magenta, yellow and black",
+      "font": "bold sans-serif",
+      "appearance_details": "Second line, four W's, one colour each."
+     },
+     {
+      "text": "LIME · BERRY",
+      "location": "lower center of the frame",
+      "size": "medium",
+      "color": "black on yellow",
+      "font": "bold sans-serif",
+      "appearance_details": "Black capitals on a yellow band."
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3-elderly-man",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "skin texture, wrinkles, natural window light, eyes",
+   "intent": "Close-up portrait of a fictional elderly man, natural window light, real skin texture and wrinkles, no retouching.",
+   "prompt": "A close-up portrait photograph of an elderly man in his late seventies, a fictional person, lit only by soft natural window light from the left. Deeply lined forehead and crow's feet, age spots, a few broken capillaries on the nose, short white stubble, thick white eyebrows, cloudy blue-grey eyes with sharp catchlights, a faint kind half-smile. He wears a worn dark green wool cardigan over a faded checked shirt. Every wrinkle, pore and hair is rendered with real skin texture, no retouching, no smoothing, slightly uneven skin tone. The background is a dim wooden kitchen, out of focus. 85 mm portrait lens at f/2, shallow depth of field, natural muted colours, subtle film grain, tall portrait frame.",
+   "fibo_caption": {
+    "short_description": "A close-up portrait photograph of a fictional elderly man in his late seventies under soft natural window light, deeply lined skin, white stubble, cloudy blue-grey eyes, a faint kind half-smile, tall portrait frame.",
+    "objects": [
+     {
+      "description": "An elderly man in his late seventies with a deeply lined forehead, crow's feet, age spots, a few broken capillaries on the nose, short white stubble, thick white eyebrows and cloudy blue-grey eyes with sharp catchlights; a faint kind half-smile.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame",
+      "skin_tone_and_texture": "real aged skin texture, visible pores and wrinkles, slightly uneven tone, no retouching, no smoothing",
+      "clothing": "worn dark green wool cardigan over a faded checked shirt",
+      "expression": "faint, kind half-smile",
+      "gender": "male",
+      "age": "late seventies"
+     }
+    ],
+    "background_setting": "A dim wooden kitchen, out of focus.",
+    "lighting": {
+     "conditions": "soft natural window light only",
+     "direction": "from the left",
+     "shadows": "soft, gentle fall-off across the face"
+    },
+    "aesthetics": {
+     "composition": "tight close-up portrait, face filling the frame, tall portrait frame",
+     "color_scheme": "natural muted colours, dark green, warm wood, white hair",
+     "mood_atmosphere": "intimate, quiet, honest"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on the eyes",
+     "camera_angle": "eye level",
+     "lens_focal_length": "85mm"
+    },
+    "style_medium": "photograph",
+    "context": "A documentary portrait with subtle film grain.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "p4-cafe-four",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "several faces in focus, natural expressions, group anatomy and hands",
+   "intent": "Four friends laughing at a street café table, all four faces sharp with different natural expressions.",
+   "prompt": "A candid photograph of four friends of different ages and backgrounds, two women and two men in their early thirties, sitting around a small round table on a sunny European street-café terrace, laughing and talking, caught mid-conversation. All four faces are in sharp focus with natural, different expressions: one woman throws her head back laughing, one man leans in with a raised eyebrow, the other woman smiles down at her coffee, the fourth friend gestures with an open hand. Real skin texture, natural imperfect teeth, a few freckles, flyaway hair, casual layered clothes in muted autumn colours. On the table: four different cups, a croissant, a phone and a pair of sunglasses. Warm late-afternoon sun from the right, cobblestones, café chairs and bicycles softly blurred behind them. 35 mm lens at f/4, documentary street photography, tall portrait frame.",
+   "fibo_caption": {
+    "short_description": "A candid documentary photograph of four friends laughing and talking around a small round table on a sunny European street-café terrace, all four faces sharp with different natural expressions, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A woman in her early thirties throwing her head back, laughing, natural teeth, a few freckles.",
+      "location": "middle left of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin texture, faint freckles",
+      "expression": "laughing"
+     },
+     {
+      "description": "A man in his early thirties leaning in with a raised eyebrow and a knowing grin.",
+      "location": "middle right of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin texture",
+      "expression": "amused, raised eyebrow"
+     },
+     {
+      "description": "A second woman, flyaway hair, smiling down at her coffee cup.",
+      "location": "lower left of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin texture",
+      "expression": "gentle smile"
+     },
+     {
+      "description": "A second man gesturing with an open hand while talking.",
+      "location": "lower right of the frame",
+      "relative_size": "large within frame",
+      "skin_tone_and_texture": "natural skin texture",
+      "expression": "animated, mid-sentence"
+     },
+     {
+      "description": "A small round café table with four different cups, a croissant, a phone and a pair of sunglasses.",
+      "location": "bottom center of the frame",
+      "relative_size": "medium within frame"
+     }
+    ],
+    "background_setting": "A sunny European street with cobblestones, café chairs and bicycles, softly blurred.",
+    "lighting": {
+     "conditions": "warm late-afternoon sun",
+     "direction": "from the right",
+     "shadows": "soft, natural"
+    },
+    "aesthetics": {
+     "composition": "four friends around a table filling the tall portrait frame, all faces visible",
+     "color_scheme": "muted autumn colours, warm tones",
+     "mood_atmosphere": "joyful, relaxed, candid"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "moderate, background blurred",
+     "focus": "all four faces in sharp focus",
+     "camera_angle": "eye level",
+     "lens_focal_length": "35mm"
+    },
+    "style_medium": "photograph",
+    "context": "Documentary street photography of friends at a café.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "p5-hiker-ridge",
+   "canvas": [
+    1792,
+    1024
+   ],
+   "tests": "cinematic wide shot, scale, atmosphere, light",
+   "intent": "Cinematic wide shot of a lone hiker on a ridge at golden hour with mist in the valleys.",
+   "prompt": "A cinematic wide shot of a lone hiker with a red backpack standing small on a narrow rocky ridge at golden hour, seen from behind and slightly below, a long shadow stretching along the ridge. Deep valleys below are filled with layers of luminous mist, successive mountain ranges fade into pale blue haze, the low sun glows orange-gold just above the horizon with a soft sunburst, rim light on the hiker's jacket and hair, wisps of cloud catching pink light. Fine sharp details: grass blades and lichen on the foreground rocks, a trekking pole. Epic scale, anamorphic film look, natural colour grade, subtle atmospheric haze, ultra-detailed, wide landscape frame.",
+   "fibo_caption": {
+    "short_description": "A cinematic wide shot of a lone hiker with a red backpack standing small on a narrow rocky ridge at golden hour, misty valleys below, layered mountain ranges fading into blue haze, wide landscape frame.",
+    "objects": [
+     {
+      "description": "A lone hiker with a red backpack and a trekking pole, seen from behind, rim-lit, casting a long shadow along the ridge.",
+      "location": "middle right of the frame",
+      "relative_size": "small within frame",
+      "clothing": "jacket and hair edged with golden rim light",
+      "pose": "standing still, looking out over the valleys"
+     },
+     {
+      "description": "A narrow rocky ridge with grass blades and lichen on the rocks in the foreground.",
+      "location": "lower center of the frame",
+      "relative_size": "large within frame",
+      "texture": "rough rock, lichen, wind-bent grass"
+     },
+     {
+      "description": "Deep valleys filled with layers of luminous mist and successive mountain ranges fading into pale blue haze.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame"
+     },
+     {
+      "description": "The low sun glowing orange-gold just above the horizon with a soft sunburst and wisps of cloud catching pink light.",
+      "location": "upper left of the frame",
+      "relative_size": "medium within frame"
+     }
+    ],
+    "background_setting": "A high mountain landscape at golden hour with mist in the valleys.",
+    "lighting": {
+     "conditions": "golden hour, low sun, rim light",
+     "direction": "from the left, low on the horizon",
+     "shadows": "long, soft"
+    },
+    "aesthetics": {
+     "composition": "the hiker small on the right third, ridge leading the eye, wide landscape frame",
+     "color_scheme": "orange-gold, pale blue haze, pink, deep shadow",
+     "mood_atmosphere": "epic, quiet, awe"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "deep",
+     "focus": "sharp from foreground lichen to distant ranges",
+     "camera_angle": "slightly low angle from behind",
+     "lens_focal_length": "35mm"
+    },
+    "style_medium": "photograph",
+    "context": "A cinematic landscape frame with an anamorphic film look.",
+    "artistic_style": "realistic, cinematic"
+   }
+  },
+  {
+   "id": "p6-night-rain",
+   "canvas": [
+    1792,
+    1024
+   ],
+   "tests": "night light, reflections, motion, no legible text on neon",
+   "intent": "Night city street in heavy rain with neon reflections and a cyclist passing in motion.",
+   "prompt": "A night street in a dense city in heavy rain, wide cinematic frame: wet asphalt mirroring neon signs in magenta, cyan and amber (abstract unreadable signs, no logos, no legible text), steam rising from a grate, glowing windows in tall buildings, rain streaks backlit by the lights. A cyclist in a hooded rain jacket rides past from right to left in sharp motion, light motion blur on the wheels, the bike lamp throwing a bright cone and reflections on the road, spray from the tyres. A few distant pedestrians with umbrellas as soft silhouettes. Shallow depth of field, anamorphic bokeh, teal and magenta colour grade, volumetric light, realistic film look.",
+   "fibo_caption": {
+    "short_description": "A cinematic wide night shot of a rainy city street with neon reflections on wet asphalt and a cyclist in a hooded rain jacket riding past in motion, wide landscape frame.",
+    "objects": [
+     {
+      "description": "A cyclist in a hooded rain jacket riding from right to left, light motion blur on the wheels, the bike lamp throwing a bright cone, spray from the tyres.",
+      "location": "middle center of the frame",
+      "relative_size": "medium within frame",
+      "pose": "riding fast, leaning slightly forward"
+     },
+     {
+      "description": "Wet asphalt mirroring neon signs in magenta, cyan and amber, rain streaks backlit by the lights, steam rising from a grate.",
+      "location": "lower center of the frame",
+      "relative_size": "very large within frame"
+     },
+     {
+      "description": "Abstract unreadable neon signs and glowing windows of tall buildings.",
+      "location": "upper center of the frame",
+      "relative_size": "large within frame"
+     },
+     {
+      "description": "A few distant pedestrians with umbrellas as soft silhouettes.",
+      "location": "middle left of the frame",
+      "relative_size": "small within frame"
+     }
+    ],
+    "background_setting": "A dense city street at night in heavy rain.",
+    "lighting": {
+     "conditions": "neon light, bike lamp, volumetric rain light",
+     "direction": "mixed, from signs and windows",
+     "shadows": "deep, with coloured reflections"
+    },
+    "aesthetics": {
+     "composition": "the cyclist crossing the middle of a wide frame, reflections leading the eye",
+     "color_scheme": "teal, magenta, cyan and amber",
+     "mood_atmosphere": "moody, electric, cinematic"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "shallow",
+     "focus": "sharp on the cyclist",
+     "camera_angle": "eye level",
+     "lens_focal_length": "35mm"
+    },
+    "style_medium": "photograph",
+    "context": "A cinematic night street scene with a realistic film look and anamorphic bokeh.",
+    "artistic_style": "realistic, cinematic"
+   }
+  },
+  {
+   "id": "p7-adherence",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "prompt adherence: counts, colours, positions (left / middle / right)",
+   "intent": "Three red cubes stacked on the left, two blue spheres on the right, one green pyramid in the middle, on a white table, top light.",
+   "adherence_checks": "3 red cubes stacked (a tower) on the LEFT; 2 blue spheres on the RIGHT; 1 green pyramid in the MIDDLE; white table; light from above. Score each of the 5 facts yes/no.",
+   "prompt": "Three red cubes stacked on the left, two blue spheres on the right, a green pyramid in the middle, on a white table, top light.",
+   "fibo_caption": {
+    "short_description": "Three red cubes stacked on the left, two blue spheres on the right and a green pyramid in the middle, on a white table under top light.",
+    "objects": [
+     {
+      "description": "Three red cubes stacked on top of each other into a tower.",
+      "location": "middle left of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 3,
+      "shape_and_color": "red cubes"
+     },
+     {
+      "description": "A green pyramid.",
+      "location": "middle center of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 1,
+      "shape_and_color": "green square-based pyramid"
+     },
+     {
+      "description": "Two blue spheres side by side.",
+      "location": "middle right of the frame",
+      "relative_size": "medium within frame",
+      "number_of_objects": 2,
+      "shape_and_color": "blue spheres"
+     }
+    ],
+    "background_setting": "A white table surface on a plain white background.",
+    "lighting": {
+     "conditions": "top light",
+     "direction": "from above",
+     "shadows": "soft shadows directly under the objects"
+    },
+    "aesthetics": {
+     "composition": "the three groups spread left, middle and right on one line",
+     "color_scheme": "red, green, blue on white",
+     "mood_atmosphere": "clean, neutral"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "deep",
+     "focus": "sharp on all objects",
+     "camera_angle": "eye level",
+     "lens_focal_length": "50mm"
+    },
+    "style_medium": "3D render",
+    "context": "A simple product-style arrangement of coloured shapes.",
+    "artistic_style": "realistic"
+   }
+  },
+  {
+   "id": "p8-anime-bookshop",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "stylised illustration, detail density, hands holding a book",
+   "intent": "Detailed anime-style illustration of a girl reading in a cosy bookshop.",
+   "prompt": "A detailed anime-style illustration of a girl with short chestnut hair and round glasses reading a thick hardcover book, sitting on a wooden step stool between tall crowded bookshelves in a cosy bookshop. Warm lamplight, a sleepy tabby cat curled on a shelf beside her, a steaming mug on a stack of books, floating dust motes in the light from a rain-streaked window, a hand-painted background rich in detail with hundreds of book spines, soft cel shading, delicate line work, warm painterly colour palette, a cosy and quiet atmosphere, original character, tall portrait frame.",
+   "fibo_caption": {
+    "short_description": "A detailed anime-style illustration of a girl with short chestnut hair and round glasses reading a thick hardcover book on a wooden step stool in a cosy bookshop, warm lamplight, tall portrait frame.",
+    "objects": [
+     {
+      "description": "A girl with short chestnut hair and round glasses sitting on a wooden step stool, absorbed in a thick hardcover book held in both hands, fingers visible.",
+      "location": "middle center of the frame",
+      "relative_size": "large within frame",
+      "clothing": "a warm knitted cardigan",
+      "expression": "calm, absorbed"
+     },
+     {
+      "description": "A sleepy tabby cat curled up on a bookshelf beside her.",
+      "location": "middle right of the frame",
+      "relative_size": "small within frame"
+     },
+     {
+      "description": "A steaming mug on a stack of books.",
+      "location": "lower right of the frame",
+      "relative_size": "small within frame"
+     },
+     {
+      "description": "Tall crowded bookshelves with hundreds of book spines and a rain-streaked window letting in light with floating dust motes.",
+      "location": "upper center of the frame",
+      "relative_size": "very large within frame"
+     }
+    ],
+    "background_setting": "A cosy bookshop interior, hand-painted, rich in detail.",
+    "lighting": {
+     "conditions": "warm lamplight and soft window light",
+     "direction": "from the left and above",
+     "shadows": "soft"
+    },
+    "aesthetics": {
+     "composition": "the girl centred between towering shelves, tall portrait frame",
+     "color_scheme": "warm amber, chestnut, deep green and cream",
+     "mood_atmosphere": "cosy, quiet, dreamy"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "not applicable (illustration)",
+     "focus": "sharp throughout",
+     "camera_angle": "eye level"
+    },
+    "style_medium": "illustration",
+    "context": "An original anime-style character illustration.",
+    "artistic_style": "anime, soft cel shading, painterly background"
+   }
+  }
+ ],
+ "note": "Published copy. Only the title, 'look_source', 'tests' of p1 and a pointer in 'scoring' were reworded, and the 'klein' entry of 'settings' and the mention of Klein in 'formats' were added when Klein joined; every prompt and every structured caption is unchanged."
+}

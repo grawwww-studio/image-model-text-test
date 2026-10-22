@@ -1,0 +1,162 @@
+[
+ {
+  "file": "cal1_krea-dense_11.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "BEAN & BARREL",
+    "min_count": 1
+   },
+   {
+    "s": "COLD BREW",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal1_moss-official_11.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "BEAN & BARREL",
+    "min_count": 1
+   },
+   {
+    "s": "COLD BREW",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal1_moss-official_12.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "BEAN & BARREL",
+    "min_count": 1
+   },
+   {
+    "s": "COLD BREW",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal1_moss-template_11.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "BEAN & BARREL",
+    "min_count": 1
+   },
+   {
+    "s": "COLD BREW",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal1_moss-template_12.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "BEAN & BARREL",
+    "min_count": 1
+   },
+   {
+    "s": "COLD BREW",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal2_moss-official_11.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "VISIT NORDHAVN",
+    "min_count": 1
+   },
+   {
+    "s": "SUMMER 1962",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal2_moss-official_12.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "VISIT NORDHAVN",
+    "min_count": 1
+   },
+   {
+    "s": "SUMMER 1962",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal2_moss-template_11.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "VISIT NORDHAVN",
+    "min_count": 1
+   },
+   {
+    "s": "SUMMER 1962",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "cal2_moss-template_12.png",
+  "kind": "real",
+  "truth": "all expected strings legible and spelled exactly (agent visual reading, zoomed crops, 2026-10-20)",
+  "expected": [
+   {
+    "s": "VISIT NORDHAVN",
+    "min_count": 1
+   },
+   {
+    "s": "SUMMER 1962",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": true
+ },
+ {
+  "file": "ie_smoke_b03_krea-ie_11.png",
+  "kind": "real",
+  "truth": "LIME legible; wordmark W row is clipped by the can's curve: 3 full W + a partial one -> 'GRAWWWW' not fully visible (the pack shot itself is like this)",
+  "expected": [
+   {
+    "s": "GRAWWWW",
+    "min_count": 1
+   },
+   {
+    "s": "LIME",
+    "min_count": 1
+   }
+  ],
+  "truth_pass": false
+ }
+]

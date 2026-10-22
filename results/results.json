@@ -1,0 +1,6869 @@
+{
+ "readers": {
+  "unl_c2": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 8,
+     "moss_rerolls": 15,
+     "ref_rerolls": 16,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 7,
+     "moss_rerolls": 20,
+     "ref_rerolls": 16,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 7,
+     "moss_rerolls": 18,
+     "ref_rerolls": 16,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 4,
+     "moss_rerolls": 8,
+     "ref_rerolls": 12,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 10
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 3
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 7
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 8
+    }
+   }
+  },
+  "unl_c0": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 10,
+     "moss_rerolls": 10,
+     "ref_rerolls": 19,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 18,
+     "ref_rerolls": 19,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.67,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 2,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 13,
+     "ref_rerolls": 19,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.67,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 5,
+     "moss_rerolls": 6,
+     "ref_rerolls": 13,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 9
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 2
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 10
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 14
+    }
+   }
+  },
+  "unl_c1": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 8,
+     "moss_rerolls": 17,
+     "ref_rerolls": 18,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 8,
+     "moss_rerolls": 22,
+     "ref_rerolls": 18,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 8,
+     "moss_rerolls": 19,
+     "ref_rerolls": 18,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 5,
+     "moss_rerolls": 10,
+     "ref_rerolls": 15,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 10
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 0
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 7
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 9
+    }
+   }
+  },
+  "unl_any": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 10,
+     "moss_rerolls": 7,
+     "ref_rerolls": 11,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 14,
+     "ref_rerolls": 11,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 7,
+     "moss_rerolls": 10,
+     "ref_rerolls": 11,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 2
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 4,
+     "moss_rerolls": 4,
+     "ref_rerolls": 10,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 14
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 5
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 14
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 16
+    }
+   }
+  },
+  "rapid": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 5,
+     "ref_rerolls": 14,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.67,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 8,
+     "moss_rerolls": 13,
+     "ref_rerolls": 14,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 7,
+     "moss_rerolls": 9,
+     "ref_rerolls": 14,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.67,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 0.67,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 3,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 4,
+     "moss_rerolls": 1,
+     "ref_rerolls": 9,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 14
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 6
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 15
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 13
+    }
+   }
+  },
+  "vlm": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 2,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 2,
+     "ref_rerolls": 4,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.67,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 4,
+     "ref_rerolls": 4,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.67,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.33,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 2,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 7,
+     "moss_rerolls": 4,
+     "ref_rerolls": 4,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.33,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 1,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 4,
+     "moss_rerolls": 1,
+     "ref_rerolls": 3,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 1
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 0.33,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 2
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 24
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 11
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 26
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 23
+    }
+   }
+  },
+  "agent_read": {
+   "per_brief": {
+    "b01-hoodie-flat": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 1,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b02-hoodie-chest": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 1,
+      "n": 3,
+      "rate": 0.3333333333333333,
+      "rerolls": 1,
+      "censored": false
+     }
+    },
+    "b03-lime-hero": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b04-berry-hero": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b05-neon-can500": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "krea-ie": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b06-endcard-lime-berry": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b07-endcard-hoodie": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     }
+    },
+    "b08-duo-cans": {
+     "krea-dense": {
+      "pass": 0,
+      "n": 3,
+      "rate": 0.0,
+      "rerolls": 3,
+      "censored": true
+     },
+     "moss-prompt": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b09-headline-650-72": {
+     "krea-dense": {
+      "pass": 2,
+      "n": 3,
+      "rate": 0.6666666666666666,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    },
+    "b10-ai-badge": {
+     "krea-dense": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-prompt": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     },
+     "moss-layout": {
+      "pass": 3,
+      "n": 3,
+      "rate": 1.0,
+      "rerolls": 0,
+      "censored": false
+     }
+    }
+   },
+   "comparisons": {
+    "HEADLINE best-of-MOSS vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 1,
+     "ref_rerolls": 3,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-prompt vs krea-dense": {
+     "moss_arms": [
+      "moss-prompt"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 9,
+     "moss_rerolls": 1,
+     "ref_rerolls": 3,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 0.67,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": true,
+     "rerolls_ok": true,
+     "verdict": "PASS"
+    },
+    "moss-layout vs krea-dense": {
+     "moss_arms": [
+      "moss-layout"
+     ],
+     "ref_arm": "krea-dense",
+     "n": 10,
+     "moss_ge_ref_on": 6,
+     "moss_rerolls": 5,
+     "ref_rerolls": 3,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 0.33,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b06-endcard-lime-berry",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b07-endcard-hoodie",
+       "moss_rate": 0.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 3,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b08-duo-cans",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b09-headline-650-72",
+       "moss_rate": 1.0,
+       "ref_rate": 0.67,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b10-ai-badge",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": false,
+     "verdict": "FAIL"
+    },
+    "best-of-MOSS vs krea-ie (b01-b05)": {
+     "moss_arms": [
+      "moss-prompt",
+      "moss-layout"
+     ],
+     "ref_arm": "krea-ie",
+     "n": 5,
+     "moss_ge_ref_on": 4,
+     "moss_rerolls": 1,
+     "ref_rerolls": 6,
+     "rows": [
+      {
+       "brief": "b01-hoodie-flat",
+       "moss_rate": 0.67,
+       "ref_rate": 1.0,
+       "moss_ge_ref": false,
+       "moss_rerolls": 1,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b02-hoodie-chest",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      },
+      {
+       "brief": "b03-lime-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b04-berry-hero",
+       "moss_rate": 1.0,
+       "ref_rate": 0.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 3
+      },
+      {
+       "brief": "b05-neon-can500",
+       "moss_rate": 1.0,
+       "ref_rate": 1.0,
+       "moss_ge_ref": true,
+       "moss_rerolls": 0,
+       "ref_rerolls": 0
+      }
+     ],
+     "rate_ok": false,
+     "rerolls_ok": true,
+     "verdict": "n/a (5 briefs)"
+    }
+   },
+   "arm_totals": {
+    "krea-dense": {
+     "images": 30,
+     "pass": 26
+    },
+    "krea-ie": {
+     "images": 15,
+     "pass": 9
+    },
+    "moss-prompt": {
+     "images": 30,
+     "pass": 28
+    },
+    "moss-layout": {
+     "images": 30,
+     "pass": 22
+    }
+   }
+  }
+ },
+ "agreement_with_agent_reading_on_test_images": {
+  "unl_c2": {
+   "tp": 28,
+   "fn": 57,
+   "fp": 0,
+   "tn": 20,
+   "sens": 0.329,
+   "spec": 1.0,
+   "agree": "48/105"
+  },
+  "unl_c0": {
+   "tp": 32,
+   "fn": 53,
+   "fp": 3,
+   "tn": 17,
+   "sens": 0.376,
+   "spec": 0.85,
+   "agree": "49/105"
+  },
+  "unl_c1": {
+   "tp": 25,
+   "fn": 60,
+   "fp": 1,
+   "tn": 19,
+   "sens": 0.294,
+   "spec": 0.95,
+   "agree": "44/105"
+  },
+  "unl_any": {
+   "tp": 46,
+   "fn": 39,
+   "fp": 3,
+   "tn": 17,
+   "sens": 0.541,
+   "spec": 0.85,
+   "agree": "63/105"
+  },
+  "rapid": {
+   "tp": 46,
+   "fn": 39,
+   "fp": 2,
+   "tn": 18,
+   "sens": 0.541,
+   "spec": 0.9,
+   "agree": "64/105"
+  },
+  "vlm": {
+   "tp": 78,
+   "fn": 7,
+   "fp": 6,
+   "tn": 14,
+   "sens": 0.918,
+   "spec": 0.7,
+   "agree": "92/105"
+  }
+ },
+ "controls_validity": {
+  "unl_c0": {
+   "rendered+pack": {
+    "tp": 9,
+    "fn": 7,
+    "tn": 11,
+    "fp": 1
+   },
+   "realistic": {
+    "tp": 6,
+    "fn": 3,
+    "tn": 1,
+    "fp": 0
+   },
+   "sens": 0.6,
+   "spec": 0.923,
+   "valid_by_rule": false
+  },
+  "unl_c1": {
+   "rendered+pack": {
+    "tp": 8,
+    "fn": 8,
+    "tn": 10,
+    "fp": 2
+   },
+   "realistic": {
+    "tp": 5,
+    "fn": 4,
+    "tn": 1,
+    "fp": 0
+   },
+   "sens": 0.52,
+   "spec": 0.846,
+   "valid_by_rule": false
+  },
+  "unl_c2": {
+   "rendered+pack": {
+    "tp": 11,
+    "fn": 5,
+    "tn": 11,
+    "fp": 1
+   },
+   "realistic": {
+    "tp": 9,
+    "fn": 0,
+    "tn": 1,
+    "fp": 0
+   },
+   "sens": 0.8,
+   "spec": 0.923,
+   "valid_by_rule": true
+  },
+  "vlm": {
+   "rendered+pack": {
+    "tp": 13,
+    "fn": 3,
+    "tn": 9,
+    "fp": 3
+   },
+   "realistic": {
+    "tp": 9,
+    "fn": 0,
+    "tn": 1,
+    "fp": 0
+   },
+   "sens": 0.88,
+   "spec": 0.769,
+   "valid_by_rule": false
+  },
+  "rapid": {
+   "rendered+pack": {
+    "tp": 9,
+    "fn": 7,
+    "tn": 12,
+    "fp": 0
+   },
+   "realistic": {
+    "tp": 9,
+    "fn": 0,
+    "tn": 1,
+    "fp": 0
+   },
+   "sens": 0.72,
+   "spec": 1.0,
+   "valid_by_rule": false
+  }
+ },
+ "agent_reading_headline_sensitivity": {
+  "as read": {
+   "best-of-MOSS": {
+    "moss_ge_ref_on": 9,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   },
+   "moss-prompt": {
+    "moss_ge_ref_on": 9,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   }
+  },
+  "disputed Krea b02 102+103 failed (favours MOSS)": {
+   "best-of-MOSS": {
+    "moss_ge_ref_on": 9,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   },
+   "moss-prompt": {
+    "moss_ge_ref_on": 9,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   }
+  },
+  "disputed MOSS-prompt b02 103 failed (hurts MOSS)": {
+   "best-of-MOSS": {
+    "moss_ge_ref_on": 8,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   },
+   "moss-prompt": {
+    "moss_ge_ref_on": 8,
+    "moss_rerolls": 1,
+    "ref_rerolls": 3,
+    "verdict": "PASS"
+   }
+  }
+ },
+ "timing": {
+  "krea-dense": {
+   "images": 30,
+   "failed": 0,
+   "warm_median_s": 12.6,
+   "warm_min_s": 12.41,
+   "warm_max_s": 12.84,
+   "cold_s": [
+    21.92
+   ],
+   "peak_mib_max": 21370,
+   "peak_mib_median": 20282,
+   "total_exec_s": 387.6
+  },
+  "krea-ie": {
+   "images": 15,
+   "failed": 0,
+   "warm_median_s": 28.7,
+   "warm_min_s": 26.99,
+   "warm_max_s": 32.44,
+   "cold_s": [
+    33.49
+   ],
+   "peak_mib_max": 23738,
+   "peak_mib_median": 21466,
+   "total_exec_s": 437.3
+  },
+  "moss-prompt": {
+   "images": 30,
+   "failed": 0,
+   "warm_median_s": 27.6,
+   "warm_min_s": 27.35,
+   "warm_max_s": 27.98,
+   "cold_s": [
+    35.53
+   ],
+   "peak_mib_max": 18586,
+   "peak_mib_median": 15738,
+   "total_exec_s": 837.1
+  },
+  "moss-layout": {
+   "images": 30,
+   "failed": 0,
+   "warm_median_s": 28.1,
+   "warm_min_s": 27.57,
+   "warm_max_s": 28.75,
+   "cold_s": [
+    27.86
+   ],
+   "peak_mib_max": 18588,
+   "peak_mib_median": 15738,
+   "total_exec_s": 841.7
+  }
+ },
+ "per_image": [
+  {
+   "file": "b01-hoodie-flat_krea-dense_101.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 21.92,
+   "peak_mib": 20090,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "",
+   "rapid_text": "mmmmej6",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_krea-dense_102.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.54,
+   "peak_mib": 20282,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_krea-dense_103.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.59,
+   "peak_mib": 20282,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_krea-ie_101.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-ie",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 33.49,
+   "peak_mib": 22522,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_krea-ie_102.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-ie",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 30.06,
+   "peak_mib": 21146,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_krea-ie_103.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "krea-ie",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 30.04,
+   "peak_mib": 21146,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-prompt_101.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "wordmark reads grawww (3 w, counted on the enlarged crop; glyph components 3 w; vision-model spelling 3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 35.53,
+   "peak_mib": 17082,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "grawww",
+   "vlm_text": "grawww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-prompt_102.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.7,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-prompt_103.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.64,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-layout_101.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.86,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "grawww",
+   "vlm_text": "grawww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-layout_102.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.66,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b01-hoodie-flat_moss-layout_103.png",
+   "brief": "b01-hoodie-flat",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.66,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "grawww",
+   "vlm_text": "grawww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-dense_101.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.68,
+   "peak_mib": 20282,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-dense_102.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "DISPUTED: I count 4 w (the last w is squeezed); the vision-model spelling says 5 w. Counted as pass",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.57,
+   "peak_mib": 20282,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-dense_103.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "DISPUTED: I count 4 w; the vision-model spelling says 5 w. Counted as pass",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.62,
+   "peak_mib": 20282,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "graww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-ie_101.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-ie",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 29.05,
+   "peak_mib": 22074,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-ie_102.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-ie",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.93,
+   "peak_mib": 21626,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_krea-ie_103.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "krea-ie",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.97,
+   "peak_mib": 21626,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-prompt_101.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.98,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-prompt_102.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.72,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-prompt_103.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "last two w overlap; I and the glyph components count 4 w, the vision-model spelling says 3. Counted as pass",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.69,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawwww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-layout_101.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.88,
+   "peak_mib": 18586,
+   "unl_c2_text": "graww\n\ngraww",
+   "unl_c0_text": "graww",
+   "rapid_text": "grawww",
+   "vlm_text": "grawww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-layout_102.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.63,
+   "peak_mib": 15738,
+   "unl_c2_text": "grawwww\n\ngrawwww",
+   "unl_c0_text": "grawwww",
+   "rapid_text": "grawwww",
+   "vlm_text": "grawwww"
+  },
+  {
+   "file": "b02-hoodie-chest_moss-layout_103.png",
+   "brief": "b02-hoodie-chest",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.66,
+   "peak_mib": 15738,
+   "unl_c2_text": "graww",
+   "unl_c0_text": "graww",
+   "rapid_text": "grawww",
+   "vlm_text": "grawww"
+  },
+  {
+   "file": "b03-lime-hero_krea-dense_101.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.82,
+   "peak_mib": 21370,
+   "unl_c2_text": "GRA\nWWWW\n\nL\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nwwww\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_krea-dense_102.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.72,
+   "peak_mib": 20314,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nwwww\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_krea-dense_103.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.65,
+   "peak_mib": 20314,
+   "unl_c2_text": "GIRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nwwww\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_krea-ie_101.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-ie",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "LIME fine, but the W row is clipped by the can's curve exactly like the pack shot: slivers at both ends, not a readable GRAWWWW",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.41,
+   "peak_mib": 22234,
+   "unl_c2_text": "GIRA\nAWA\n\nLIME\n\nLIME\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日\n\n(1) 2017年1月1日",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nLIME",
+   "vlm_text": "GRA\nWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_krea-ie_102.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-ie",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "W row clipped like the pack shot",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.07,
+   "peak_mib": 21402,
+   "unl_c2_text": "GIRA\nAWN\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nMM\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_krea-ie_103.png",
+   "brief": "b03-lime-hero",
+   "arm": "krea-ie",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "W row clipped like the pack shot",
+   "strict_L2_unl_c2": false,
+   "exec_s": 26.99,
+   "peak_mib": 21402,
+   "unl_c2_text": "GIRA\nLAW\n\nLIME\n\nLIME",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nLIME",
+   "vlm_text": "GRA\nWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-prompt_101.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.89,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW\n\nTIME\n\nLIME",
+   "unl_c0_text": "LIME",
+   "rapid_text": "MMMM\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-prompt_102.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.68,
+   "peak_mib": 15738,
+   "unl_c2_text": "GIRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nMMM\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-prompt_103.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.66,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GR\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-layout_101.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.55,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nwwww\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-layout_102.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.21,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWW\n\nLIME",
+   "rapid_text": "GRA\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b03-lime-hero_moss-layout_103.png",
+   "brief": "b03-lime-hero",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 28.21,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWWW\n\n\n\nLIME\n\nLIME",
+   "unl_c0_text": "GRA\nWWWW\n\nLIME",
+   "rapid_text": "GRA\nMMMM\nLIME",
+   "vlm_text": "GRA\nWWWW\nLIME"
+  },
+  {
+   "file": "b04-berry-hero_krea-dense_101.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.78,
+   "peak_mib": 21370,
+   "unl_c2_text": "GRA\nWWW\n\nBRIEW\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nWWwW\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_krea-dense_102.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.69,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "wwww\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_krea-dense_103.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.63,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW\n\nPENNY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nwwww\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_krea-ie_101.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-ie",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "BERRY fine, W row clipped like the pack shot",
+   "strict_L2_unl_c2": false,
+   "exec_s": 29.0,
+   "peak_mib": 22106,
+   "unl_c2_text": "GRA\nM\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_krea-ie_102.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-ie",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "W row clipped like the pack shot",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.5,
+   "peak_mib": 21434,
+   "unl_c2_text": "GRA\nM\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nIMMM\n\nBERRY",
+   "rapid_text": "GRA\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_krea-ie_103.png",
+   "brief": "b04-berry-hero",
+   "arm": "krea-ie",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "W row clipped like the pack shot",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.49,
+   "peak_mib": 21466,
+   "unl_c2_text": "GRA\nVWW\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-prompt_101.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.87,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW\n\nBEDEW\n\nWWW\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-prompt_102.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "pink and yellow W overlap, 4 visible",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.64,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\n\nWWW\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GRA\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-prompt_103.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "legible, but stray micro-print along the left edge of the can",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.65,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\nWWW\n\nBERRY",
+   "unl_c0_text": "GRA\nWWW\n\nBERRY",
+   "rapid_text": "GR\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-layout_101.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.5,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWWW\n\nBERRY",
+   "rapid_text": "GRA\nwwww\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-layout_102.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.2,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\n\nWWW\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWWW\n\nBERRY",
+   "rapid_text": "GRA\nwwww\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b04-berry-hero_moss-layout_103.png",
+   "brief": "b04-berry-hero",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 28.19,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWWW\n\nBERRY\n\nBERRY",
+   "unl_c0_text": "GRA\nWWWW\n\nBERRY",
+   "rapid_text": "GRA\nMMMM\nBERRY",
+   "vlm_text": "GRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b05-neon-can500_krea-dense_101.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.76,
+   "peak_mib": 20698,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "GRA\nWWW",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_krea-dense_102.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.66,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_krea-dense_103.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.66,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_krea-ie_101.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-ie",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 32.44,
+   "peak_mib": 23738,
+   "unl_c2_text": "GRA\nWWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWWW"
+  },
+  {
+   "file": "b05-neon-can500_krea-ie_102.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-ie",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 29.88,
+   "peak_mib": 19418,
+   "unl_c2_text": "GRA\nWWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWWW"
+  },
+  {
+   "file": "b05-neon-can500_krea-ie_103.png",
+   "brief": "b05-neon-can500",
+   "arm": "krea-ie",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 30.02,
+   "peak_mib": 19418,
+   "unl_c2_text": "GRA\nWWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-prompt_101.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.84,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "GRA\nWWW",
+   "rapid_text": "GRA\nwwww",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-prompt_102.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.58,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\n\nWWW",
+   "unl_c0_text": "GRA\nWWWW",
+   "rapid_text": "GRA\nwwww",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-prompt_103.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.63,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "GRA\nWWW",
+   "rapid_text": "GRA\nwwww",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-layout_101.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "W's overlap (cyan, magenta, yellow, white) but 4 are visible",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.38,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nwww",
+   "vlm_text": "GRA\nWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-layout_102.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "the white W is half hidden behind the yellow one; 4 visible",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.12,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b05-neon-can500_moss-layout_103.png",
+   "brief": "b05-neon-can500",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.13,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nwwww",
+   "vlm_text": "GRA\nWWWW"
+  },
+  {
+   "file": "b06-endcard-lime-berry_krea-dense_101.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.66,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW\n\n\n\nLIME • BERRY\n\nAI-generated • fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME·BERRY\n\nAI-generated • fictional product and brand",
+   "rapid_text": "WWWW\nLIME· BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_krea-dense_102.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.55,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW\n\n\n\nLIME • BERRY\n\nAI-generated • fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME·BERRY\n\nAI-generated · fictional product and brand",
+   "rapid_text": "WWWW\nLIME·BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_krea-dense_103.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.54,
+   "peak_mib": 20282,
+   "unl_c2_text": "GRA\nWWW\n\n\n\nLIME • BERRY\n\nAI-generated • fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME·BERRY\n\nAI-generated • fictional product and brand",
+   "rapid_text": "WW\nLIME·BERRY\nAI-generated · fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-prompt_101.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.87,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\n\nGINA\nWWW\n\nLIME · BERRY\n\n[Non-Text]\n\nLIME · BERRY\n\nAI-generated · fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME · BERRY\n\nAI-generated · fictional product and brand",
+   "rapid_text": "LIME :BERRY\nAI-generated . fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-prompt_102.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.61,
+   "peak_mib": 15738,
+   "unl_c2_text": "GERA\nWALLAW\n\nWWM\n\nLIME • BERRY\n\nLIME • BERRY\n\nAI-generated · fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME·BERRY\n\nAI-generated · fictional product and brand",
+   "rapid_text": "LIME·BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-prompt_103.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.64,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\n\nWWN\n\n\n\nLIME · BERRY\n\nAI-generated • fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME · BERRY\n\nAI-generated • fictional product and brand",
+   "rapid_text": "LIME - BERRY\nAI-generated . fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME - BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-layout_101.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 28.42,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\n\nWWWW\n\nGUMA\nWWW\n\nLIME·BERRY\n\nSINUS SIIIII\n\nAI-generated · fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME · BERRY\n\nAI-generated · fictional product and brand",
+   "rapid_text": "WWI\nLIME·BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-layout_102.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "the A of GRA is malformed (a black crescent instead of the right half)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.12,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW\n\nLIME • BERRY\n\nLIME • BERRY\n\nAI-generated · fictional product and brand",
+   "unl_c0_text": "GRA\nWWWW\n\nLIME • BERRY\n\nAI-generated · fictional product and brand",
+   "rapid_text": "GRA\nWWWW\nLIME·BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b06-endcard-lime-berry_moss-layout_103.png",
+   "brief": "b06-endcard-lime-berry",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.1,
+   "peak_mib": 15706,
+   "unl_c2_text": "GRA\nWWW\n\nLIME·BERRY\n\nLIME·BERRY\n\nAI-generated · fictional product and brand",
+   "unl_c0_text": "GRA\nWWW\n\nLIME • BERRY\n\nAI-generated • fictional product and brand",
+   "rapid_text": "GRA\nWWW\nLIME·BERRY\nAI-generated : fictional product and brand",
+   "vlm_text": "GRA\nWWWW\nLIME • BERRY\nAI-generated • fictional product and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_krea-dense_101.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.58,
+   "peak_mib": 20314,
+   "unl_c2_text": "grawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "rapid_text": "growwww\nwashed black hoodie\nAI-generated . fictional model and brand",
+   "vlm_text": "grawwwww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_krea-dense_102.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.42,
+   "peak_mib": 20314,
+   "unl_c2_text": "grawww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated : fictional model and brand",
+   "vlm_text": "grawwww\nwashed black hoodie\nAI-generated • fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_krea-dense_103.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.42,
+   "peak_mib": 20314,
+   "unl_c2_text": "grawwww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated : fictional model and brand",
+   "vlm_text": "grawwwww\nwashed black hoodie\nAI-generated • fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-prompt_101.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.8,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated • fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated . fictional model and brand",
+   "vlm_text": "grawww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-prompt_102.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.42,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawwww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated . fictional model and brand",
+   "vlm_text": "grawwww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-prompt_103.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.36,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawww\n\nwashed black hoodie\n\nwashed black noodle\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated\n fictional model and brand",
+   "vlm_text": "grawwww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-layout_101.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": false,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.84,
+   "peak_mib": 18586,
+   "unl_c2_text": "grawww\n\ngrawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "rapid_text": "grawww\nwashed black hoodie\nAI-generated : fictional model and brand",
+   "vlm_text": "grawww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-layout_102.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": false,
+   "agent_note": "one w is deformed (a bite out of it); the count is unclear (4 or 5): fail",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.57,
+   "peak_mib": 15738,
+   "unl_c2_text": "GREGORIAN\n\ngrawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawwww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "rapid_text": "grawwww\nwashed black hoodie\nAI-generated : fictional model and brand",
+   "vlm_text": "grawwww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b07-endcard-hoodie_moss-layout_103.png",
+   "brief": "b07-endcard-hoodie",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "grawww (3 w)",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.62,
+   "peak_mib": 15738,
+   "unl_c2_text": "THE MMMM\n\ngrawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "unl_c0_text": "grawww\n\nwashed black hoodie\n\nAI-generated · fictional model and brand",
+   "rapid_text": "grawww\nwashed black hoodie\nAI-generated : fictional model and brand",
+   "vlm_text": "grawww\nwashed black hoodie\nAI-generated · fictional model and brand"
+  },
+  {
+   "file": "b08-duo-cans_krea-dense_101.png",
+   "brief": "b08-duo-cans",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "WWW (3 W) on both cans: the four W of the spelled-out prompt came out as three",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.84,
+   "peak_mib": 21370,
+   "unl_c2_text": "GRA\nWWW\n\nGRA\nWWW\n\nLIME\n\nBERRY\n\nLIME\n\nBERRY",
+   "unl_c0_text": "LIME\n\n\n\nBERRY",
+   "rapid_text": "GRAGRA\nwwwwww\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWW\nLIME\nGRA\nWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_krea-dense_102.png",
+   "brief": "b08-duo-cans",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "WWW (3 W) on both cans",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.66,
+   "peak_mib": 20314,
+   "unl_c2_text": "GRA\nWWW\n\nGRA\nWWW\n\nLIME\n\nBERRY\n\nLIME\n\nBERRY",
+   "unl_c0_text": "LIME\n\n\n\nBERRY",
+   "rapid_text": "GRAGRA\nwwwwww\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWW\nLIME\nGRA\nWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_krea-dense_103.png",
+   "brief": "b08-duo-cans",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "WWW (3 W) on both cans",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.67,
+   "peak_mib": 20314,
+   "unl_c2_text": "GRA\nWWW\n\nGRA\nWWW",
+   "unl_c0_text": "LIME\n\n\n\nBERRY",
+   "rapid_text": "GRA GRA\nwww www\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWW\nLIME\nGRA\nWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-prompt_101.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.87,
+   "peak_mib": 18586,
+   "unl_c2_text": "GRA\nWWW\n\nGRA\nWWW",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWW\nLIME\nGRA\nWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-prompt_102.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "WWW (cyan, magenta, yellow = 3 W) on both cans",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.64,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nGRA\nWWW\n\nBERRY\n\nLIME\n\nBERRY",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nwww\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWW\nLIME\nGRA\nWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-prompt_103.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.62,
+   "peak_mib": 15738,
+   "unl_c2_text": "GRA\nWWW\n\nGRA\nWWW\n\nLIME\n\nBERRY",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWWW\nLIME\nGRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-layout_101.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.75,
+   "peak_mib": 17756,
+   "unl_c2_text": "GRA\nWWW\n\nLIME\n\nGRA\nWWW\n\nBERRY\n\nLIME\n\nBERRY",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nwwww\nMMMM\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWWW\nLIME\nGRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-layout_102.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.45,
+   "peak_mib": 18588,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nwwww\nwwww\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWWW\nLIME\nGRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b08-duo-cans_moss-layout_103.png",
+   "brief": "b08-duo-cans",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.41,
+   "peak_mib": 18588,
+   "unl_c2_text": "",
+   "unl_c0_text": "",
+   "rapid_text": "GRA\nGRA\nLIME\nBERRY",
+   "vlm_text": "GRA\nWWWW\nLIME\nGRA\nWWWW\nBERRY"
+  },
+  {
+   "file": "b09-headline-650-72_krea-dense_101.png",
+   "brief": "b09-headline-650-72",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.54,
+   "peak_mib": 20282,
+   "unl_c2_text": "650 S\n\nTO\n\nTO\n\n500\n\n72s",
+   "unl_c0_text": "650 S\nTO\n\n72s",
+   "rapid_text": "650\nTO",
+   "vlm_text": "650S\nTO\n72S"
+  },
+  {
+   "file": "b09-headline-650-72_krea-dense_102.png",
+   "brief": "b09-headline-650-72",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": false,
+   "unl_any": false,
+   "rapid": false,
+   "vlm": false,
+   "agent_read": false,
+   "agent_note": "the second line is garbled (looks like 0JU S under 650) and TO is misplaced",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.41,
+   "peak_mib": 20282,
+   "unl_c2_text": "650\nn5n\n\n0000\n\nTO\n\n76\n\n72s",
+   "unl_c0_text": "650\n0000\nTO\n72S",
+   "rapid_text": "",
+   "vlm_text": "650\nBUS\nTO\n72S"
+  },
+  {
+   "file": "b09-headline-650-72_krea-dense_103.png",
+   "brief": "b09-headline-650-72",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "PASS with an artifact: a grey diagonal slash through the second 0 of 650 and the 7 of 72 S is clipped by the band",
+   "strict_L2_unl_c2": false,
+   "exec_s": 12.46,
+   "peak_mib": 20282,
+   "unl_c2_text": "650s\n\nTO\n\nTO\n\n712s\n\nVECO",
+   "unl_c0_text": "650 S\n\nTO\n\n72S",
+   "rapid_text": "650\nTO\n2S",
+   "vlm_text": "650S\nTO\n72S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-prompt_101.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.57,
+   "peak_mib": 15706,
+   "unl_c2_text": "550s\n\nb5U5\n\nTO\n\n72s\n\n126",
+   "unl_c0_text": "650 S\n\nTO\n\n72S",
+   "rapid_text": "650 S\nTO\n72S",
+   "vlm_text": "650S\nTO\n72S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-prompt_102.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.35,
+   "peak_mib": 18586,
+   "unl_c2_text": "650s\n\nTO\n\n100\n\nTO\n\n72S\n\n[Non-Text]",
+   "unl_c0_text": "650 S\n\nTO\n\n72S",
+   "rapid_text": "650\nTO",
+   "vlm_text": "650 S\nTO\n72 S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-prompt_103.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": false,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 27.37,
+   "peak_mib": 18586,
+   "unl_c2_text": "6500\n\nTO\n\n100\n\nTO\n\n72s\n\nLEG",
+   "unl_c0_text": "650 S\n\nTO\n\n725",
+   "rapid_text": "650\nTO\n72",
+   "vlm_text": "650 S\nTO\n72S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-layout_101.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.38,
+   "peak_mib": 18588,
+   "unl_c2_text": "650s\n\nTO\n\nTO\n\n72S\n\nL",
+   "unl_c0_text": "650 S\n\nTO\n\n72S",
+   "rapid_text": "650 S\nTO\n72 S",
+   "vlm_text": "650 S\nTO\n72 S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-layout_102.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": false,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.11,
+   "peak_mib": 15708,
+   "unl_c2_text": "650 S\n\nTO\n\nTO\n\n72S\n\nLUC",
+   "unl_c0_text": "650 S\nTO\n\n72S",
+   "rapid_text": "650 S\nTO",
+   "vlm_text": "650 S\nTO\n72 S"
+  },
+  {
+   "file": "b09-headline-650-72_moss-layout_103.png",
+   "brief": "b09-headline-650-72",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": false,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": false,
+   "exec_s": 28.06,
+   "peak_mib": 15772,
+   "unl_c2_text": "650 S\n\nTO\n\nTO\n\n72S\n\n[Non-Text]",
+   "unl_c0_text": "650 S\n\nTO\n\n72S",
+   "rapid_text": "650 S\nTO\n72 S",
+   "vlm_text": "650 S\nTO\n72 S"
+  },
+  {
+   "file": "b10-ai-badge_krea-dense_101.png",
+   "brief": "b10-ai-badge",
+   "arm": "krea-dense",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.58,
+   "peak_mib": 20314,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED PRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_krea-dense_102.png",
+   "brief": "b10-ai-badge",
+   "arm": "krea-dense",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.51,
+   "peak_mib": 20282,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED PRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_krea-dense_103.png",
+   "brief": "b10-ai-badge",
+   "arm": "krea-dense",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 12.47,
+   "peak_mib": 20282,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED PRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-prompt_101.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-prompt",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.52,
+   "peak_mib": 15738,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "",
+   "rapid_text": "LARA\nAI-GENERATED\nPRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-prompt_102.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-prompt",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": false,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.37,
+   "peak_mib": 18586,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "",
+   "rapid_text": "LARA\nAI-GENERATED PRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-prompt_103.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-prompt",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.37,
+   "peak_mib": 18586,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED\nPRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-layout_101.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-layout",
+   "seed": 101,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.86,
+   "peak_mib": 18588,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED\nPRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-layout_102.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-layout",
+   "seed": 102,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.61,
+   "peak_mib": 15772,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED PRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  },
+  {
+   "file": "b10-ai-badge_moss-layout_103.png",
+   "brief": "b10-ai-badge",
+   "arm": "moss-layout",
+   "seed": 103,
+   "unl_c2": true,
+   "unl_c0": true,
+   "unl_c1": true,
+   "unl_any": true,
+   "rapid": true,
+   "vlm": true,
+   "agent_read": true,
+   "agent_note": "",
+   "strict_L2_unl_c2": true,
+   "exec_s": 27.59,
+   "peak_mib": 15772,
+   "unl_c2_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "unl_c0_text": "LARA\n\nAI-GENERATED PRESENTER",
+   "rapid_text": "LARA\nAI-GENERATED\nPRESENTER",
+   "vlm_text": "LARA\nAI-GENERATED PRESENTER"
+  }
+ ]
+}

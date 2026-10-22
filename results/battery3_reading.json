@@ -1,0 +1,290 @@
+{
+ "h1-count7|fibo|101": {
+  "items": "FPP",
+  "note": "8 apples, not 7"
+ },
+ "h1-count7|fibo|102": {
+  "items": "FPP",
+  "note": "8 apples, not 7"
+ },
+ "h1-count7|klein|101": {
+  "items": "PPP",
+  "note": "7 apples in one row"
+ },
+ "h1-count7|klein|102": {
+  "items": "PPP",
+  "note": "7 apples"
+ },
+ "h1-count7|krea-dense|101": {
+  "items": "PPP",
+  "note": "7 apples; 3 of them with yellow-orange patches but red dominant"
+ },
+ "h1-count7|krea-dense|102": {
+  "items": "PPP",
+  "note": "7 apples, dark red with yellow-green patches on two"
+ },
+ "h1-count7|moss-prompt|101": {
+  "items": "PPP",
+  "note": "7 apples"
+ },
+ "h1-count7|moss-prompt|102": {
+  "items": "PPP",
+  "note": "7 apples"
+ },
+ "h1-count7|qwen21|101": {
+  "items": "PPP",
+  "note": "7 apples"
+ },
+ "h1-count7|qwen21|102": {
+  "items": "PPP",
+  "note": "7 apples"
+ },
+ "h1-count7|qwena|101": {
+  "items": "FPP",
+  "note": "6 apples, not 7"
+ },
+ "h1-count7|qwena|102": {
+  "items": "FPP",
+  "note": "6 apples, not 7"
+ },
+ "h2-bind-stacks|fibo|101": {
+  "items": "PPPP",
+  "note": "colours muted (maroon sphere, slate-blue cube) but bindings right"
+ },
+ "h2-bind-stacks|fibo|102": {
+  "items": "PPPP",
+  "note": "colours muted (maroon sphere, slate-blue cube) but bindings right"
+ },
+ "h2-bind-stacks|klein|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|klein|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|krea-dense|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|krea-dense|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|moss-prompt|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|moss-prompt|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|qwen21|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|qwen21|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|qwena|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h2-bind-stacks|qwena|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|fibo|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|fibo|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|klein|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|klein|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|krea-dense|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|krea-dense|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|moss-prompt|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|moss-prompt|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|qwen21|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|qwen21|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|qwena|101": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h3-cat-dog|qwena|102": {
+  "items": "PPPP",
+  "note": ""
+ },
+ "h4-chalkboard|fibo|101": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|fibo|102": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|klein|101": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|klein|102": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|krea-dense|101": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|krea-dense|102": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|moss-prompt|101": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|moss-prompt|102": {
+  "items": "PP",
+  "note": "extra small shop-window text 'Bakery-Cafe' outside the board"
+ },
+ "h4-chalkboard|qwen21|101": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|qwen21|102": {
+  "items": "PP",
+  "note": ""
+ },
+ "h4-chalkboard|qwena|101": {
+  "items": "FP",
+  "note": "adds a trailing period after 7AM-2PM"
+ },
+ "h4-chalkboard|qwena|102": {
+  "items": "FP",
+  "note": "adds a trailing period after 7AM-2PM"
+ },
+ "h5-handshake|fibo|101": {
+  "items": "FPP",
+  "note": "pulled back: the people's other hands hang at the sides (4 hands visible), shaking hands small and low-res"
+ },
+ "h5-handshake|fibo|102": {
+  "items": "FPP",
+  "note": "pulled back again: the man's other hand hangs at the left (3+ hands visible), shaking hands small"
+ },
+ "h5-handshake|klein|101": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|klein|102": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|krea-dense|101": {
+  "items": "PPP",
+  "note": "hands in soft focus"
+ },
+ "h5-handshake|krea-dense|102": {
+  "items": "PPP",
+  "note": "smallish hands"
+ },
+ "h5-handshake|moss-prompt|101": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|moss-prompt|102": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|qwen21|101": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|qwen21|102": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|qwena|101": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h5-handshake|qwena|102": {
+  "items": "PPP",
+  "note": ""
+ },
+ "h6-clock345|fibo|101": {
+  "items": "PFP",
+  "note": "four hands: long thick hand at 3, thin hands at 9 and 7; short hand between 3 and 4"
+ },
+ "h6-clock345|fibo|102": {
+  "items": "PPP",
+  "note": "long hand on 9, short hand between 3 and 4 (about 56 % of the way)"
+ },
+ "h6-clock345|klein|101": {
+  "items": "PFF",
+  "note": "reads about 1:52; the thin hand near 9 is a second hand"
+ },
+ "h6-clock345|klein|102": {
+  "items": "PFF",
+  "note": "hands at 8 (thin), about 9.7 and 1.5: not 3:45"
+ },
+ "h6-clock345|krea-dense|101": {
+  "items": "PFF",
+  "note": "reads about 10:10 (hour hand at 10, long hand at 2); a thin hand at 9"
+ },
+ "h6-clock345|krea-dense|102": {
+  "items": "PFF",
+  "note": "two long thick hands (9 and 2) and a short one at 3: not 3:45"
+ },
+ "h6-clock345|moss-prompt|101": {
+  "items": "PFP",
+  "note": "one thick hand just past 3 (hour hand ok) and a thin long hand at about 10: minute hand not on 9"
+ },
+ "h6-clock345|moss-prompt|102": {
+  "items": "PPF",
+  "note": "thin long hand on 9 but the short hand points to about 4.6, not between 3 and 4"
+ },
+ "h6-clock345|qwen21|101": {
+  "items": "PPP",
+  "note": "long hand on 9, short hand between 3 and 4 close to 4: reads 3:45"
+ },
+ "h6-clock345|qwen21|102": {
+  "items": "PPP",
+  "note": "long hand on 9, short hand between 3 and 4 but only a third of the way to the 4"
+ },
+ "h6-clock345|qwena|101": {
+  "items": "PFF",
+  "note": "five hands, hour at 10, long hand at 2, extra hands at 6, 9 and 12"
+ },
+ "h6-clock345|qwena|102": {
+  "items": "PFF",
+  "note": "three thick hands (9, 2 and 5) plus a thin one: no readable 3:45"
+ }
+}

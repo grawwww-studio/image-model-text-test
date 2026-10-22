@@ -1,0 +1,100 @@
+{
+ "1": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "krea2_turbo_fp8_scaled.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "2": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+   "type": "krea2",
+   "device": "default"
+  }
+ },
+ "3": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "qwen_image_vae.safetensors"
+  }
+ },
+ "6": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "A hero product photograph of one standard 330 ml aluminium soda can standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, a few cold condensation droplets on the can, tall portrait frame. The can has a lime-green wrap-around label that faces the camera. In the upper half of the label, huge bold black sans-serif capitals on two lines: \"GRA\" on the first line and \"WWWW\" directly below it, the four W's coloured cyan, magenta, yellow and black. At the bottom of the label, a yellow rectangular band with the word \"LIME\" in bold black sans-serif capitals. The brand name is spelled G, R, A, then four W (seven letters). No other text.",
+   "clip": [
+    "2",
+    0
+   ]
+  }
+ },
+ "7": {
+  "class_type": "ConditioningZeroOut",
+  "inputs": {
+   "conditioning": [
+    "6",
+    0
+   ]
+  }
+ },
+ "8": {
+  "class_type": "EmptySD3LatentImage",
+  "inputs": {
+   "width": 1024,
+   "height": 1792,
+   "batch_size": 1
+  }
+ },
+ "9": {
+  "class_type": "KSampler",
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "positive": [
+    "6",
+    0
+   ],
+   "negative": [
+    "7",
+    0
+   ],
+   "latent_image": [
+    "8",
+    0
+   ],
+   "seed": 101,
+   "steps": 9,
+   "cfg": 1.0,
+   "sampler_name": "er_sde",
+   "scheduler": "beta",
+   "denoise": 1.0
+  }
+ },
+ "10": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "9",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  }
+ },
+ "11": {
+  "class_type": "SaveImage",
+  "inputs": {
+   "images": [
+    "10",
+    0
+   ],
+   "filename_prefix": "t004/b03-lime-hero_krea-dense_101"
+  }
+ }
+}

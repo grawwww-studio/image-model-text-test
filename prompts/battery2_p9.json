@@ -1,0 +1,80 @@
+{
+ "battery": "Battery 2, extra prompt p9 (lifestyle feet, 2026-10-20)",
+ "written": "2026-10-20 22:25 UTC, before any p9 image was generated",
+ "formats": "FORMATS DIFFER, INTENT IS THE SAME: Krea 2 Turbo, MOSS-Image SFT, Qwen-Image-2.1, Qwen-Image-2512 and FLUX 3 Image Klein get the same dense natural-language prompt ('prompt'); FIBO 2.0-dev gets its native structured JSON caption ('fibo_caption') written to say the same thing.",
+ "seeds": [
+  101,
+  102
+ ],
+ "seed_policy": "seeds 101 and 102 for every model; qwena (Qwen-Image-2512, ~113 s per image in battery 2) runs seed 102 too because only one extra image is needed and the model is already loaded (the time check is reported)",
+ "settings": {
+  "krea-dense": "krea2_turbo_fp8 + qwen3vl_4b encoder + qwen_image_vae, 9 steps er_sde/beta cfg 1, no LoRA (same graph as the label run)",
+  "moss-prompt": "moss_image_sft_int8_convrot, vendor settings 50 steps cfg 3 euler/simple, SLG layer 22, vendor negative, prompt upsampler off (same as the label run)",
+  "qwen21": "Qwen-Image-2.1 int8, 40 steps euler/simple cfg 1, prompt enhancer off (same as the label run)",
+  "fibo": "FIBO 2.0-dev bf16 via diffusers, 30 steps guidance 5.0 (the label run's setting after its 130 s rule), the card's t2i negative caption",
+  "qwena": "Qwen-Image-2512 fp8, 50 steps cfg 4 euler/simple shift 3.1, template negative; only if its speed gate passes (warm <= 120 s per 1024x1792 image)",
+  "klein": "flux3-image-klein bf16 (distilled), Qwen3-VL-4B-Instruct encoder, flux2-vae, 16 steps euler/simple cfg 1, no prompt upsampler (same graph as the label run)"
+ },
+ "scoring": "agent visual reading only (an AI model looking at every image; not a person): realism, anatomy (hands, faces), composition/aesthetic, slop look (1-5 each; 5 = best, slop 5 = no slop), adherence facts for p7. Subjective; a person's blind ranking came after (results/blind_vote.json).",
+ "content_rule": "fictional adult, fully clothed, casual pose, no fetish framing; test = anatomy and realism (feet, toes, hands, face, skin)",
+ "prompts": [
+  {
+   "id": "p9-lifestyle-feet",
+   "canvas": [
+    1024,
+    1792
+   ],
+   "tests": "anatomy and realism of feet and toes (the second classic failure after hands), hands, face, skin; phone-snapshot lifestyle look",
+   "intent": "Instagram-style lifestyle photo of a fictional adult woman (mid-twenties) seated barefoot on a sunlit sea boardwalk in a light summer dress, feet and toes clearly visible, relaxed natural smile, golden hour, shot on a phone, vertical. Tasteful, fully clothed, casual pose, no fetish framing.",
+   "prompt": "A candid Instagram-style lifestyle photograph, shot on a smartphone, of a beautiful young woman in her mid-twenties, clearly an adult and a fictional synthetic person, sitting on a sunlit weathered wooden boardwalk by the sea on a summer evening. She sits relaxed and casual with her knees slightly bent and her bare feet resting on the planks in front of her, both feet clearly visible in the frame with natural proportions: five toes on each foot, natural toenails, no extra or fused toes. One hand rests on the boards beside her and the other lightly tucks a strand of hair behind her ear, both hands with five correctly formed fingers. She has long light-brown wavy hair with a few flyaway strands in the sea breeze, natural skin with visible pores, a light tan and a few freckles, and a relaxed natural smile as she looks toward the camera. She wears a light, loose, knee-length white and pale-yellow summer dress, fully covered, casual and modest. Golden-hour sun low and to the side gives warm rim light and soft shadows; behind her the sea and a wooden railing are softly out of focus, a little sand blown over the planks. Smartphone photo look: 26 mm lens, natural HDR, slightly warm colours, mild grain, no beauty filter, no retouching, full seated pose from head to feet, vertical 9:16 frame.",
+   "fibo_caption": {
+    "short_description": "A candid Instagram-style lifestyle photograph shot on a smartphone: a fictional adult woman in her mid-twenties sits relaxed on a sunlit wooden boardwalk by the sea at golden hour, barefoot, both feet and all ten toes clearly visible, a natural smile, in a light summer dress; tall vertical frame.",
+    "objects": [
+     {
+      "description": "A beautiful young woman in her mid-twenties, an adult and fictional person, sitting relaxed with her knees slightly bent, one hand resting on the boards beside her and the other tucking a strand of hair behind her ear, looking toward the camera with a relaxed natural smile; long light-brown wavy hair with a few flyaway strands in the sea breeze.",
+      "location": "middle center of the frame",
+      "relative_size": "very large within frame",
+      "skin_tone_and_texture": "natural skin with visible pores, a light tan and a few freckles, no beauty filter, no retouching",
+      "clothing": "light loose knee-length white and pale-yellow summer dress, fully covered, casual and modest",
+      "pose": "seated on the planks, knees slightly bent, full seated pose from head to feet",
+      "expression": "relaxed natural smile",
+      "gender": "female",
+      "age": "mid-twenties"
+     },
+     {
+      "description": "Her bare feet resting on the wooden planks in front of her, both feet clearly visible with natural proportions: five toes on each foot, natural toenails, no extra or fused toes.",
+      "location": "bottom center of the frame",
+      "relative_size": "medium within frame",
+      "skin_tone_and_texture": "natural skin, a light tan, a little sand on the skin"
+     },
+     {
+      "description": "Her two hands, one resting on the boards and one at her hair, each with five correctly formed fingers.",
+      "location": "middle center of the frame",
+      "relative_size": "small within frame"
+     }
+    ],
+    "background_setting": "A weathered wooden boardwalk by the sea, a wooden railing and the sea softly out of focus behind her, a little sand blown over the planks.",
+    "lighting": {
+     "conditions": "golden-hour sun, warm",
+     "direction": "low and from the side, with warm rim light",
+     "shadows": "soft, long and natural"
+    },
+    "aesthetics": {
+     "composition": "full seated figure from head to feet in a tall vertical frame, feet in the lower third, comfortable headroom",
+     "color_scheme": "warm golden tones, weathered wood, pale yellow and white dress, soft blue sea",
+     "mood_atmosphere": "relaxed, summery, candid"
+    },
+    "photographic_characteristics": {
+     "depth_of_field": "moderate, the sea and railing softly blurred",
+     "focus": "sharp on her face, hands and feet",
+     "camera_angle": "eye level, slightly high",
+     "lens_focal_length": "26mm"
+    },
+    "style_medium": "photograph",
+    "context": "A smartphone lifestyle photo for social media with natural HDR, slightly warm colours and mild grain.",
+    "artistic_style": "realistic"
+   }
+  }
+ ],
+ "note": "Published copy. Only the title, 'look_source', 'tests' of p1 and a pointer in 'scoring' were reworded, and the 'klein' entry of 'settings' and the mention of Klein in 'formats' were added when Klein joined; every prompt and every structured caption is unchanged."
+}

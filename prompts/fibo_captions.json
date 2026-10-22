@@ -1,0 +1,580 @@
+{
+ "b01-hoodie-flat": {
+  "short_description": "A premium e-commerce product photograph, shot straight down from above, of a washed black oversized cotton hoodie laid flat on a pale warm-grey seamless paper backdrop under soft even studio light, centred in a tall portrait frame.",
+  "objects": [
+   {
+    "description": "Washed black oversized cotton hoodie laid flat, hood behind the neck, kangaroo pocket and two drawstrings.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   }
+  ],
+  "background_setting": "A pale warm-grey seamless paper backdrop.",
+  "lighting": {
+   "conditions": "soft even studio light",
+   "direction": "from above",
+   "shadows": "very soft and short"
+  },
+  "aesthetics": {
+   "composition": "centered flat lay in a tall portrait frame",
+   "color_scheme": "black, orange and warm grey",
+   "mood_atmosphere": "clean, premium"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "deep",
+   "focus": "sharp over the whole garment",
+   "camera_angle": "straight down from above",
+   "lens_focal_length": "50mm"
+  },
+  "style_medium": "photograph",
+  "context": "A premium e-commerce product photograph.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "grawwww",
+    "location": "middle right of the frame",
+    "size": "medium",
+    "color": "orange",
+    "font": "rounded sans-serif",
+    "appearance_details": "Neat orange embroidery thread, lowercase, rounded humanist sans-serif, on the left chest."
+   }
+  ]
+ },
+ "b02-hoodie-chest": {
+  "short_description": "A close-up lifestyle photograph of a person's torso wearing a washed black oversized cotton hoodie, framed from just below the chin to the waist so that no face is visible, soft overcast daylight, shallow depth of field, tall portrait frame.",
+  "objects": [
+   {
+    "description": "Torso in a washed black oversized cotton hoodie, no face visible, hood and two drawstrings hanging in the upper centre.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   }
+  ],
+  "background_setting": "A softly blurred overcast outdoor background.",
+  "lighting": {
+   "conditions": "soft overcast daylight",
+   "direction": "diffuse from above",
+   "shadows": "soft"
+  },
+  "aesthetics": {
+   "composition": "tight crop from just below the chin to the waist, no face visible, tall portrait frame",
+   "color_scheme": "black and orange",
+   "mood_atmosphere": "calm, casual"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "shallow",
+   "focus": "sharp on the embroidered lettering",
+   "camera_angle": "eye level",
+   "lens_focal_length": "50mm"
+  },
+  "style_medium": "photograph",
+  "context": "A lifestyle fashion photograph.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "grawwww",
+    "location": "middle right of the frame",
+    "size": "medium",
+    "color": "orange, red",
+    "font": "sans-serif",
+    "appearance_details": "Orange embroidered lowercase lettering on the left chest, sharp and legible."
+   }
+  ]
+ },
+ "b03-lime-hero": {
+  "short_description": "A hero product photograph of one standard 330 ml aluminium soda can with a lime-green wrap-around label standing upright in the grass of a sunny green meadow, low camera angle, soft out-of-focus wildflowers in the foreground, bright daylight, cold condensation droplets, tall portrait frame.",
+  "objects": [
+   {
+    "description": "Standard 330 ml aluminium soda can with a lime-green label, condensation droplets.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   },
+   {
+    "description": "Yellow rectangular band across the bottom of the label.",
+    "location": "middle center of the frame",
+    "relative_size": "large within frame"
+   },
+   {
+    "description": "Soft out-of-focus wildflowers and grass in the foreground.",
+    "location": "lower center of the frame",
+    "relative_size": "very large within frame"
+   }
+  ],
+  "background_setting": "A sunny green meadow with soft out-of-focus wildflowers and grass in the foreground and a bright sky.",
+  "lighting": {
+   "conditions": "bright daylight",
+   "direction": "from above and slightly behind",
+   "shadows": "short and crisp"
+  },
+  "aesthetics": {
+   "composition": "the can centered, low camera angle, tall portrait frame",
+   "color_scheme": "lime green, yellow, black, cyan and magenta",
+   "mood_atmosphere": "fresh, sunny"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "shallow",
+   "focus": "sharp on the can label",
+   "camera_angle": "low angle",
+   "lens_focal_length": "85mm"
+  },
+  "style_medium": "photograph",
+  "context": "A soft drink advertising hero shot.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "GRA",
+    "location": "middle center of the frame",
+    "size": "large",
+    "color": "black",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold black sans-serif capitals, first line of the brand name."
+   },
+   {
+    "text": "WWWW",
+    "location": "middle center of the frame",
+    "size": "large",
+    "color": "black, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the brand name."
+   },
+   {
+    "text": "LIME",
+    "location": "middle center of the frame",
+    "size": "medium",
+    "color": "black, yellow",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold black sans-serif capitals on the yellow band."
+   }
+  ]
+ },
+ "b04-berry-hero": {
+  "short_description": "A hero product photograph of one standard 330 ml aluminium soda can with a crimson-red wrap-around label standing upright in a pastel pink and blue valley among fresh raspberries and blueberries, soft hazy light, cold condensation droplets, tall portrait frame.",
+  "objects": [
+   {
+    "description": "Standard 330 ml aluminium soda can with a crimson-red label, condensation droplets.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   },
+   {
+    "description": "Yellow rectangular band across the bottom of the label.",
+    "location": "middle center of the frame",
+    "relative_size": "large within frame"
+   },
+   {
+    "description": "Fresh raspberries and blueberries scattered in the foreground.",
+    "location": "lower center of the frame",
+    "relative_size": "very large within frame"
+   }
+  ],
+  "background_setting": "A pastel pink and blue valley with fresh raspberries and blueberries scattered in the foreground.",
+  "lighting": {
+   "conditions": "soft hazy daylight",
+   "direction": "from the front left",
+   "shadows": "soft"
+  },
+  "aesthetics": {
+   "composition": "the can centered, tall portrait frame",
+   "color_scheme": "crimson red, pastel pink and blue, yellow, white, cyan and magenta",
+   "mood_atmosphere": "sweet, airy"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "shallow",
+   "focus": "sharp on the can label",
+   "camera_angle": "slightly low angle",
+   "lens_focal_length": "85mm"
+  },
+  "style_medium": "photograph",
+  "context": "A soft drink advertising hero shot.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "GRA",
+    "location": "middle center of the frame",
+    "size": "large",
+    "color": "white",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold white sans-serif capitals, first line of the brand name."
+   },
+   {
+    "text": "WWWW",
+    "location": "middle center of the frame",
+    "size": "large",
+    "color": "white, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name."
+   },
+   {
+    "text": "BERRY",
+    "location": "middle center of the frame",
+    "size": "medium",
+    "color": "black, yellow",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold black sans-serif capitals on the yellow band."
+   }
+  ]
+ },
+ "b05-neon-can500": {
+  "short_description": "A product hero photograph of one tall 500 ml matte-black aluminium can with a narrow neck, standing in a puddle of glowing neon slime on a near-black seamless backdrop, cyan light from the left and magenta light from the right, glossy slime droplets frozen in the air, tall portrait frame.",
+  "objects": [
+   {
+    "description": "Tall 500 ml matte-black aluminium can with a narrow neck, cyan and magenta rim light.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   },
+   {
+    "description": "Puddle of glowing neon slime with glossy droplets.",
+    "location": "lower center of the frame",
+    "relative_size": "large within frame"
+   }
+  ],
+  "background_setting": "A near-black seamless backdrop with a puddle of glowing neon slime and glossy droplets frozen in the air.",
+  "lighting": {
+   "conditions": "cyan light from the left and magenta light from the right",
+   "direction": "rim lighting from both sides",
+   "shadows": "deep and soft"
+  },
+  "aesthetics": {
+   "composition": "the can centered, tall portrait frame",
+   "color_scheme": "black, cyan, magenta, yellow and white",
+   "mood_atmosphere": "loud, futuristic"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "shallow",
+   "focus": "sharp on the wordmark",
+   "camera_angle": "eye level",
+   "lens_focal_length": "85mm"
+  },
+  "style_medium": "photograph",
+  "context": "An energy drink product hero shot.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "GRA",
+    "location": "middle center of the frame",
+    "size": "medium",
+    "color": "white",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold white sans-serif capitals, first line of the brand name."
+   },
+   {
+    "text": "WWWW",
+    "location": "middle center of the frame",
+    "size": "large",
+    "color": "white, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line of the brand name."
+   }
+  ]
+ },
+ "b06-endcard-lime-berry": {
+  "short_description": "A clean vertical advertising end card on a flat off-white paper background: a huge stacked wordmark in the upper half, a yellow marker band below it, and a small footer line at the very bottom. Flat graphic design, no photo.",
+  "objects": [
+   {
+    "description": "Yellow rectangular marker band.",
+    "location": "upper center of the frame",
+    "relative_size": "medium within frame"
+   }
+  ],
+  "background_setting": "A flat off-white paper background.",
+  "lighting": {
+   "conditions": "flat, none",
+   "direction": "none",
+   "shadows": "none"
+  },
+  "aesthetics": {
+   "composition": "a huge stacked wordmark in the upper half, a yellow band below it, a small footer at the bottom, tall portrait frame",
+   "color_scheme": "black, cyan, magenta, yellow on off-white",
+   "mood_atmosphere": "bold, clean"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "none",
+   "focus": "flat graphic",
+   "camera_angle": "straight on",
+   "lens_focal_length": "none"
+  },
+  "style_medium": "graphic design",
+  "context": "An advertising end card.",
+  "artistic_style": "bold print typography",
+  "text_render": [
+   {
+    "text": "GRA",
+    "location": "upper center of the frame",
+    "size": "large",
+    "color": "black",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge heavy black sans-serif capitals, first line of the stacked wordmark."
+   },
+   {
+    "text": "WWWW",
+    "location": "upper center of the frame",
+    "size": "large",
+    "color": "black, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge heavy sans-serif capital W's coloured cyan, magenta, yellow and black, second line of the stacked wordmark."
+   },
+   {
+    "text": "LIME · BERRY",
+    "location": "upper center of the frame",
+    "size": "medium",
+    "color": "black, yellow",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold black sans-serif capitals on the yellow band."
+   },
+   {
+    "text": "AI-generated · fictional product and brand",
+    "location": "lower center of the frame",
+    "size": "small",
+    "color": "black",
+    "font": "monospaced",
+    "appearance_details": "Small footer line in a monospaced typeface, black."
+   }
+  ]
+ },
+ "b07-endcard-hoodie": {
+  "short_description": "A vertical end card for a fashion ad on a flat near-black background: a large orange wordmark in the middle, a white subtitle below it, and a small footer line at the very bottom. Flat graphic design, no photo.",
+  "objects": [],
+  "background_setting": "A flat near-black background.",
+  "lighting": {
+   "conditions": "flat, none",
+   "direction": "none",
+   "shadows": "none"
+  },
+  "aesthetics": {
+   "composition": "a large wordmark in the middle, a subtitle below it, a small footer at the bottom, tall portrait frame",
+   "color_scheme": "orange and white on near-black",
+   "mood_atmosphere": "minimal, confident"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "none",
+   "focus": "flat graphic",
+   "camera_angle": "straight on",
+   "lens_focal_length": "none"
+  },
+  "style_medium": "graphic design",
+  "context": "A fashion advertising end card.",
+  "artistic_style": "clean sans-serif typography",
+  "text_render": [
+   {
+    "text": "grawwww",
+    "location": "upper center of the frame",
+    "size": "large",
+    "color": "orange",
+    "font": "rounded sans-serif",
+    "appearance_details": "Large bold orange lowercase rounded sans-serif letters."
+   },
+   {
+    "text": "washed black hoodie",
+    "location": "upper center of the frame",
+    "size": "small",
+    "color": "white",
+    "font": "sans-serif",
+    "appearance_details": "White regular sans-serif."
+   },
+   {
+    "text": "AI-generated · fictional model and brand",
+    "location": "lower center of the frame",
+    "size": "small",
+    "color": "white",
+    "font": "monospaced",
+    "appearance_details": "Small footer line in white monospaced type."
+   }
+  ]
+ },
+ "b08-duo-cans": {
+  "short_description": "A studio product photograph of two standard 330 ml aluminium soda cans standing side by side on a seamless light-grey backdrop, soft shadows, tall portrait frame. The left can has a lime-green label, the right can has a crimson-red label.",
+  "objects": [
+   {
+    "description": "Left can, standard 330 ml aluminium soda can with a lime-green label.",
+    "location": "middle left of the frame",
+    "relative_size": "very large within frame"
+   },
+   {
+    "description": "Right can, standard 330 ml aluminium soda can with a crimson-red label.",
+    "location": "middle right of the frame",
+    "relative_size": "very large within frame"
+   }
+  ],
+  "background_setting": "A seamless light-grey studio backdrop with soft shadows.",
+  "lighting": {
+   "conditions": "soft studio light",
+   "direction": "from the front and above",
+   "shadows": "soft"
+  },
+  "aesthetics": {
+   "composition": "two cans side by side, centered, tall portrait frame",
+   "color_scheme": "lime green, crimson red, yellow, black and white",
+   "mood_atmosphere": "clean, playful"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "moderate",
+   "focus": "sharp on both labels",
+   "camera_angle": "eye level",
+   "lens_focal_length": "85mm"
+  },
+  "style_medium": "photograph",
+  "context": "A studio product photograph of two soda flavours.",
+  "artistic_style": "realistic",
+  "text_render": [
+   {
+    "text": "GRA",
+    "location": "middle left of the frame",
+    "size": "medium",
+    "color": "black",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold black sans-serif capitals, first line of the brand name on the green can."
+   },
+   {
+    "text": "WWWW",
+    "location": "middle left of the frame",
+    "size": "medium",
+    "color": "black, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and black, second line on the green can."
+   },
+   {
+    "text": "LIME",
+    "location": "middle left of the frame",
+    "size": "medium",
+    "color": "black, yellow",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold black sans-serif capitals on a yellow band on the green can."
+   },
+   {
+    "text": "GRA",
+    "location": "middle right of the frame",
+    "size": "medium",
+    "color": "white, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold white sans-serif capitals, first line of the brand name on the red can."
+   },
+   {
+    "text": "WWWW",
+    "location": "middle right of the frame",
+    "size": "medium",
+    "color": "white, cyan, magenta, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge bold sans-serif capital W's coloured cyan, magenta, yellow and white, second line on the red can."
+   },
+   {
+    "text": "BERRY",
+    "location": "middle right of the frame",
+    "size": "medium",
+    "color": "black, yellow, red",
+    "font": "bold sans-serif",
+    "appearance_details": "Bold black sans-serif capitals on a yellow band on the red can."
+   }
+  ]
+ },
+ "b09-headline-650-72": {
+  "short_description": "A bold typographic poster on a flat dark charcoal background: a three-line headline in huge heavy sans-serif capitals, the last line on a yellow highlight band, and a long thin white horizontal bar under it. Flat graphic design, no photo.",
+  "objects": [
+   {
+    "description": "Yellow rectangular highlight band.",
+    "location": "middle center of the frame",
+    "relative_size": "very large within frame"
+   },
+   {
+    "description": "Long thin white horizontal bar.",
+    "location": "lower center of the frame",
+    "relative_size": "small within frame"
+   }
+  ],
+  "background_setting": "A flat dark charcoal background.",
+  "lighting": {
+   "conditions": "flat, none",
+   "direction": "none",
+   "shadows": "none"
+  },
+  "aesthetics": {
+   "composition": "a three-line headline, the last line on a yellow band, a thin bar below, tall portrait frame",
+   "color_scheme": "white, black and yellow on charcoal",
+   "mood_atmosphere": "bold, urgent"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "none",
+   "focus": "flat graphic",
+   "camera_angle": "straight on",
+   "lens_focal_length": "none"
+  },
+  "style_medium": "graphic design",
+  "context": "A typographic poster.",
+  "artistic_style": "heavy poster typography",
+  "text_render": [
+   {
+    "text": "650 S",
+    "location": "upper center of the frame",
+    "size": "very large",
+    "color": "white",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge heavy white sans-serif capitals."
+   },
+   {
+    "text": "TO",
+    "location": "upper center of the frame",
+    "size": "large",
+    "color": "white",
+    "font": "sans-serif",
+    "appearance_details": "Small white sans-serif capitals."
+   },
+   {
+    "text": "72 S",
+    "location": "middle center of the frame",
+    "size": "very large",
+    "color": "black, yellow",
+    "font": "bold sans-serif",
+    "appearance_details": "Huge heavy black sans-serif capitals on the yellow band."
+   }
+  ]
+ },
+ "b10-ai-badge": {
+  "short_description": "A flat graphic design on a pale off-white background: a wide rectangular name plate with a thick black border, centred, containing four small coloured squares at the left and two lines of text to their right.",
+  "objects": [
+   {
+    "description": "Wide rectangular name plate with a thick black border.",
+    "location": "middle center of the frame",
+    "relative_size": "large within frame"
+   },
+   {
+    "description": "Four small squares in a row coloured cyan, magenta, yellow and black.",
+    "location": "middle left of the frame",
+    "relative_size": "medium within frame"
+   }
+  ],
+  "background_setting": "A flat pale off-white background.",
+  "lighting": {
+   "conditions": "flat, none",
+   "direction": "none",
+   "shadows": "none"
+  },
+  "aesthetics": {
+   "composition": "a wide name plate centered, tall portrait frame",
+   "color_scheme": "black, cyan, magenta and yellow on off-white",
+   "mood_atmosphere": "clean, editorial"
+  },
+  "photographic_characteristics": {
+   "depth_of_field": "none",
+   "focus": "flat graphic",
+   "camera_angle": "straight on",
+   "lens_focal_length": "none"
+  },
+  "style_medium": "graphic design",
+  "context": "A broadcast lower-third name plate.",
+  "artistic_style": "clean print design",
+  "text_render": [
+   {
+    "text": "LARA",
+    "location": "middle center of the frame",
+    "size": "medium",
+    "color": "black",
+    "font": "bold sans-serif",
+    "appearance_details": "Heavy black sans-serif capitals."
+   },
+   {
+    "text": "AI-GENERATED PRESENTER",
+    "location": "middle center of the frame",
+    "size": "small",
+    "color": "black",
+    "font": "monospaced",
+    "appearance_details": "Small black monospaced capitals."
+   }
+  ]
+ }
+}
