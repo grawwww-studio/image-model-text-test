@@ -9,7 +9,7 @@ The models: **Krea 2** (Turbo), **MOSS-Image** (SFT), **Qwen-Image-2.1**, **FIBO
 24 GB RTX 4090, through ComfyUI 0.42.1 (five of them) or Hugging Face diffusers (FIBO; FIBO also ran natively in a newer ComfyUI, for a speed comparison). This repository holds the prompts, the ComfyUI workflows,
 the scripts, the raw results and reduced comparison grids. It holds no model weights.
 
-- Video: TODO (link added when the video is public)
+- Video: https://youtu.be/GNDAMpKLelo
 
 ![Two cans, seed 101, eight columns: Krea 2, Krea 2 + Identity Edit (not applicable), MOSS prompt, MOSS layout, Qwen-Image-2.1, FIBO 2.0-dev, Qwen-Image-2512, FLUX 3 Image Klein](grids/labels/b08-duo-cans_seed101.jpg)
 
